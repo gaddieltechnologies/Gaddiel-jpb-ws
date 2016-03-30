@@ -1,0 +1,588 @@
+/* Read More */
+.readon, .readmore a {
+    line-height: 25px;
+    margin: 3px 0;
+    padding: 5px;
+    vertical-align: middle;
+    color: #ffffff !important;
+}
+a.readon:link, a.readon:visited, .readmore a:link, .readmore a:visited  {text-decoration:none;}
+a.readon:hover, .readmore a:hover {text-decoration:underline; color: #ffffff !important;}
+
+.readon, .readmore a, .pager a{
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+.readmore a, .pager a{color:#ffffff !important;}
+.readmore a, .pager a:hover{color:#ffffff !important;}
+
+
+/* Login Form */
+#form-login, #form-login-username label, #form-login, #form-login-password label {display:block;}
+fieldset {border:0px;}
+
+
+/* START STYLING AND LAYOUT FOR (MENU ITEM -- CATEGORY BLOG) */
+/*leading article and item styling*/
+.items-leading{margin-bottom: 30px}
+.items-leading h2{}
+.items-leading h2 a, .items-leading h2 a:hover, .items-leading h2 a:active, .items-leading h2 a:link{text-decoration:none;}
+.item{margin-bottom: 30px;}
+
+/*styling for each row which contains columns*/
+.items-row h2, .cols-2 h2, .row-0 h2 {width:99%; }
+.items-row a, .cols-2 a, .row-0 h2 a, .items-row a:hover, .cols-2 a:hover, .row-0 h2 a:hover, .items-row a:active, .cols-2 a:active, .row-0 h2 a:active, .items-row a:link, .cols-2 a:link, .row-0 h2 a:link{text-decoration:none;}
+
+/*Category Blog Layout*/
+.items-row{overflow:hidden; margin-bottom:5px !important;}
+.column-1, .column-2, .column-3, .column-4{padding:0;}
+
+/* 1 column layout */
+.cols-1{display: block; float: none !important; margin: 0 !important;}
+
+/* 2 column layout */
+.cols-2 .column-1{width:49%; float:left;}
+.cols-2 .column-2{width:49%;float:right;}
+
+/* 3 column layout */
+.cols-3 .column-1{float:left; width:31.5%; padding:0px;}
+.cols-3 .column-2{float:left; width:31.5%; padding:0px; margin-left:2.2%;}
+.cols-3 .column-3{float:left; width:31.5%; padding:0px; margin-left:2.2%;}
+
+/* 4 column layout */
+.cols-4 .column-1{width:23%;float:left;}
+.cols-4 .column-2{width:23%; margin-left:2.2%; float:left;}
+.cols-4 .column-3{width:23%; margin-left:2.2%; float:left;}
+.cols-4 .column-4{width:23%; margin-left:2.2%; float:left;}
+
+.blog-more{padding:10px 5px;}
+.item-separator {height:10px;}
+
+/*Search Results*/
+.result-title{padding:10px; background-image: url("../images/overlay-lightj3.png"); background-repeat: repeat;}
+.search-results .result-text {color: #000000;}
+.search-results dd.result-category {color: #000000;}
+.search-results dd.result-created {color: #000000;}
+
+span.highlight {color: #000000;}
+
+/* START STYLING FOR (MENU ITEM -- MORE ARTICLES) CLASS .ITEMS-MORE) */
+.items-more{padding-top:10px; padding-bottom:10px; list-style-image:none; background-image: url("../images/overlay-lightj3.png"); background-repeat: repeat;}
+.items-more h3{font-weight:normal; margin:0; padding:5px 5px 5px 5px; font-size:1.4em;}
+.items-more ol{line-height:1.3em; list-style-type:none; margin:0; padding:0px 0px 0px 2px;}
+.items-more ol li{padding:2px;}
+.items-more ol li a{display:inline; margin:0; font-weight:normal; padding:5px 5px 5px 15px; }
+.items-more ol li a:hover, .items-more ol li a:active, .items-more ol li a:focus{font-weight:normal; padding:5px 5px 5px 15px;}
+
+/* Category Table Styling */
+table.category th a img{padding:2px 10px;}
+.filter-search{float:left;}
+.filter-search .inputbox{width:6em;}
+legend.element-invisible{position:absolute; margin-left:-3000px; margin-top:-3000px; height:0px;}
+.cat-items {margin-top:20px;}
+td.list-title, td.createdby, td.list-hits{border:none;}
+
+/* Start Tables Styling */
+table{border:none;}
+table.category .createdby, table.category .list-hits, table.category .cat-list-row0, table.category .cat-list-row1 {color:#777;}
+tbody tr.cat-list-row0 td.list-author, tbody tr.cat-list-row1 td.list-author{border:none;}
+table.weblinks, table.category {font-size:1em; margin:10px 10px 20px 0px; width:99%;}
+table.weblinks td{ border-collapse:collapse;}
+table.weblinks td, table.category td{padding: 15px 7px;}
+table.weblinks th, table.category th{padding:7px; text-align:left;}
+td.list-title a {text-decoration: none;}
+td.num{vertical-align:top; text-align:left;}
+td.hits{vertical-align:top; text-align:center;}
+td p{margin:0; line-height:1.3em;}
+.filter{margin:10px 0px;}
+.display-limit,.filter{text-align:right; margin-right:7px;}
+tr.even, .cat-list-row0{background-color:#F4F4F4;}/*-- USE THIS TO STYLE EVERY SECOND ROW IN THE CATEGORY TABLE --*/
+tr.odd, .cat-list-row1{}/*-- USE THIS TO STYLE EVERY SECOND ROW IN THE CATEGORY TABLE --*/
+table.weblinks th, table.newsfeeds th, table.category th, table.jlist-table th{font-size:16px;}
+table.weblinks th a, table.newsfeeds th a, table.category th a, table.jlist-table th a, table.weblinks th, table.newsfeeds th, table.category th, table.jlist-table th {}
+table.category th a img {border:solid 0px ;}
+
+
+/* START STYLING FOR(MENU ITEM TYPE -- LIST ALL CATEGORIES) */
+.categories-listalphabet ul{padding:0; margin:20px 10px 10px 0; list-style-type:none; list-style-position:inside;}
+.categories-listalphabet ul li{display :inline; padding:5px; border-right:solid 1px #ddd;}
+.categories-list ul{list-style-type:none; list-style-image:none; margin:0; padding:0;}
+.categories-list ul ul{margin:15px; padding:0;}
+.cat-children{padding-left:5px;}
+.cat-children ul dl dt, .cat-children ul dl dd, dl.article-count dt, dl.article-count dd{display:inline;}
+.cat-children ul{list-style-type:none; list-style-image:none; margin:0; padding:0;}
+.cat-children ul{margin:10px 10px 10px 10px;}
+.cat-children ul ul{margin:20px;}
+.cat-children ul li{margin:10px 0 10px 0;}
+
+.categories-module, .category-module{margin: 10px 0 10px 0; padding: 0 0 0 20px;}/*layout for list of categories in Article Categories Module and Article Category in Article Category Module*/
+
+.cat-children ul dl dt, .cat-children ul dl dd, dl.article-count dt, dl.article-count dd {margin: 0px 2px; display: inline;}
+
+/* START STYLING FOR (MENU ITEM -- LIST ALL CONTACT CATEGORIES, LIST CONTACTS IN A CATEGORY, SINGLE CONTACT, FEATURED CONTACT) */
+/* Start Styling for Contact - Slider */
+#contact-slider{margin-top: 10px;}
+#contact-slider .pane-toggler-down, #contact-slider .pane-toggler{ margin-bottom:1px; margin-top:0px; cursor:hand; height:20px; border:1px solid #E9E9E9; cursor:pointer;
+border:1px solid #eaeaea;
+background: #ffffff !important; /* Old browsers */
+-webkit-box-shadow: 0 5px 6px -6px b1b1b1;
+-moz-box-shadow: 0 5px 6px -6px black;
+box-shadow: 0 5px 6px -6px black;
+}
+
+#contact-slider a, #contact-slider h3, #contact-slider a:hover {
+    border: medium none;
+    color: #000000 !important;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#contact-slider .contact-form, #contact-slider .contact-image, #contact-slider .contact-miscinfo{margin:10px 0px;}
+#contact-slider .pane-slider{padding: 0px 10px; clear: both;}
+#contact-slider .panel {
+    background-color: transparent;
+    border:none !important;
+    margin-bottom: 1px;
+    padding: 0px;
+}
+
+div.accordion-inner dl.contact-position{max-width: 50%;}
+
+.contact-position,.contact-street,.contact-telephone,.contact-fax, .contact-mobile, .contact-webpage{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact-position{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact-category .item-title a {}
+.contact-category h2 {padding:10px 0 0 10px !important;}
+
+/* Single Contact Form H3 header */
+.contact h3{ margin-bottom:20px; margin-top:20px; padding:5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #ccc;}
+
+/* Mod Languages */
+.mod-languages ul li {}
+
+/* Mod Stats  */
+.stats-module dl {margin:10px 0 10px 0}
+.stats-module dt {float:left; margin:0 10px 0 0; font-weight: bold;}
+.stats-module dt,   .stats-module dd {padding:2px 0 2px 0 }
+
+/* Misc  */
+ul#archive-items li {list-style:none; padding:0px; margin:0px; background-image:none;}
+
+#mailto-window h2 {color:#000000;}
+#mailto-window {background:#f5f5f5; padding:15px; border:solid 1px #ddd; position:relative}
+#mailto-window label{width:10em}
+.mailto-close{position:absolute; right:0; top:5px; background:none; }
+.mailto-close a {background:#f5f5f5 url(../images/close.png) no-repeat !important;min-width:25px; display:block;min-height:25px;overflow:visible}
+.mailto-close a  span{position:absolute; left:-3000px; top:-3000px; display:inline}
+#mailto-window  .inputbox{background:url("../images/content_bg.gif") repeat-x scroll 0 0 #FFFFFF; border:1px solid #ccc; padding:3px;}
+#mailto-window p{margin-top:20px}
+#mailto-window button{margin:0 5px 0 0}
+.clr{clear:both;}   
+
+body.contentpane {background: none repeat scroll 0 0 #FFFFFF;}
+body.contentpane {margin: 10px; text-align: left;width: auto;}
+
+/* Edit */
+form#adminForm {padding:10px 0px;}
+legend {padding:3px 5px;}
+.edit form#adminForm legend {font-weight:bold}
+.edit form#adminForm fieldset{padding:20px 15px; margin:10px 0 15px 0; border:1px solid #aaa;}
+
+.formelm{margin:5px 0}
+.formelm label{width:13em; display:inline-block; vertical-align:top;}
+form#adminForm .formelm-area{padding:5px 0}
+form#adminForm .formelm-area label {vertical-align:top; display:inline-block; width:7.9em}
+form#adminForm{border:solid 0px #000}
+.formelm-buttons{text-align:right; margin-bottom:10px}
+form.editor fieldset{border:solid 1px #ccc;}
+
+a.modal-button, .button2-left .blank a, .button2-left a, .button2-left div.readmore a {background:#eee; padding:4px !important; margin:0 !important; line-height:1.2em; border:solid 1px #ddd; font-weight:bold; text-decoration:none; margin-top:10px !important}
+
+.contentpaneopen_edit img {border:0}
+#editor-xtd-buttons {padding: 0px;}
+.button2-left, .button2-right, .button2-left div, .button2-right div {float: left;}
+.button2-left a, .button2-right a, .button2-left span, .button2-right span {display: block; float: left; color: #666; cursor: pointer;}
+.button2-left span, .button2-right span {cursor: default; color: #999;}
+.button2-left .page a, .button2-right .page a, .button2-left .page span, .button2-right .page span {padding: 0 6px;}
+.button2-left a:hover,.button2-right a:hover {text-decoration: none; color: #0B55C4;}
+.button2-left a,.button2-left span {padding: 0 24px 0 6px;}
+.button2-right a, .button2-right span {padding: 0 6px 0 24px;}
+.button2-left, .button2-right {float: left; margin-left: 5px;}
+
+.button2-left .readmore a {color:#666666; margin-right:0px;}
+
+table.contentpaneopen, table.contentpane, table.blog {
+width:100%;
+}
+
+.archive h2, .archive h2 a, .items-leading h2, .contact-category h2 {margin:0px;}
+.items-row h2, .cols-2 h2, .row-0 h2, .row-0 h2, .item-page h2 {margin-top:0px !important;}
+
+table.contentpaneopen, table.contentpane, table.blog {
+width:100%;
+}
+
+.maincontent .search {
+    width:auto; 
+    text-align:left !important;
+    padding-bottom:20px;
+}
+
+.ordering-box .inputbox, .form-limit .inputbox {background-image:none !important; height:26px;}
+#ordering, #limit {background:#eee;}
+
+
+/*-------------------------------------------------System Standard, Error and Notice Messages Styling------------------------------------*/
+
+/* System Messages */
+#system-message{margin:0px;
+padding: 0 !important;
+background:#fff;
+border:solid 0px;
+}
+#system-message dt { font-weight: bold; }
+#system-message dd { margin: 0;  padding: 5px; font-weight: bold; text-indent: 0px;background:#0099FF; padding:0 }
+#system-message dd ul { color: #ffffff; margin-bottom: 5px; list-style: none; padding: 5px; border: 3px solid #ffffff;}
+ 
+/* System Standard Messages */
+#system-message dt.message { display: none; }
+#system-message dd.message {  }
+#system-message dd.message ul { background:#0099FF; margin-left:0px;}
+ 
+/* System Error Messages */
+#system-message dt.error { display: none; }
+#system-message dd.error {  }
+#system-message dd.error ul { color: #ffffff; background:#0099FF; border: 3px solid #ffffff; margin:0;}
+ 
+/* System Notice Messages */
+#system-message dt.notice { display: none; }
+#system-message dd.notice {  }
+#system-message dd.notice ul { color: #ffffff; background:#0099FF; border: 3px solid #ffffff;}
+
+/*---------------------------------------------End System Standard, Error and Notice Messages Styling------------------------------------*/
+
+/* Login Form */
+div.login-fields input {margin: 5px;}
+div.login form fieldset div.login-fields label#username-lbl{margin: 5px 2px 5px 5px;}
+div.login form fieldset div.login-fields label#password-lbl{margin: 5px 10px 5px 5px;}
+div.login form fieldset div.login-fields{margin: 10px 0px;}
+
+/* contact slider styling*/
+#contact-slider .pane-toggler-down, #contact-slider .pane-toggler {
+    margin-bottom: 1px;
+    margin-top: 0;
+    padding: 10px 5px;
+}
+
+/* rating and voting styling*/
+.content_rating, .content_vote{font-size:14px;}
+.content_header form{margin:0px;}
+
+
+/*--------------------------------------------- Joomla 3 Specific------------------------------------*/
+
+/*--------------Joomlage.com Template specific for Joomla3--------------*/
+/*Required*/
+.clearfix:before,
+.clearfix:after {display: table; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+/* Buttons */
+/*Button Padding*/
+.btn{padding: 8px 14px;}
+#main div#editor-xtd-buttons.btn-toolbar div.btn-toolbar a.btn {
+    border: medium none !important;
+    margin-left: 5px !important;
+    margin-top: 0 !important;
+    padding: 14px !important;
+}
+
+div.btn-group a.btn{padding: 4px 14px; margin-bottom:10px;}
+
+
+/*remove list style from buttons and bootstrap dropdown menus*/
+.btn-group > .btn, .btn-group > .dropdown-menu {list-style: none outside none;}
+
+
+/*Styles all buttons in template including rate, loginform, submit, previous, next, print, pdf menu button, append, pre-append, rapid contact button.*/
+.content_vote .btn, 
+.btn.dropdown-toggle, 
+.pager.pagenav a, 
+.pager a, 
+.btn-primary, 
+span.content_vote input.btn, 
+.btn, 
+.input-append .add-on, .input-prepend .add-on, 
+.btn.active, 
+.btn:active,
+.btn-group > .btn, .btn-group > .dropdown-menu{background-image: url("../images/overlay-lightj3.png"); background-repeat: repeat; border-radius: 0px; text-shadow: none; text-decoration:none !important; border:1px solid #e2e2e2;}
+
+/*button group open color or image background (example the print and pdf buttons icon on click)*/
+.btn-group.open .dropdown-toggle {background-color: transparent;}
+.btn-group.open .btn.dropdown-toggle {background-color: transparent;}
+.btn-group.open .btn-primary.dropdown-toggle {background-color: transparent;}
+
+/*icons on button group*/
+div.btn-group a.btn i.icon-cog{margin-top:3px; margin-right:3px;}
+
+
+/*Boot Strap drop down menus*/
+/*dropdown link hover color example print and pdf links hover*/
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {background-color: transparent;}
+
+/*dropdown menu background color*/
+.dropdown-menu {background-color: transparent;}
+
+
+/*search*/
+#search label {display: none;}
+
+/*breadcrumbs*/
+ul.breadcrumb{margin-top:0px; color:#000000;}
+.breadcrumb li {float:left;}
+ul.breadcrumb li a.pathway{background-color:transparent !important; padding:0px 7px; background-image:none; color:#000000;}
+.module ul.breadcrumb li a, .module_menu ul.breadcrumb li a {display: inline; text-decoration: none; border:none; color:#000000;}
+div#breadcrumb-1 div.module_margin div.module div.module_padding div.module_content{padding:0px;}
+ul.breadcrumb li span.divider{margin:0px 3px;}
+ul.breadcrumb li.active{font-weight: bold;}
+
+/*pagination*/
+ul.pagination{margin-top:20px; margin-bottom:20px;}
+div.pagination ul.pagination span li span{border:none;}
+div.pagination ul.pagination span li strong a{border:none;}
+.pagination ul{border:none !important; background-image: none;}
+.pagination a, .pagination span, .pagination a:hover, .pagination .active a, .pagination .active span, .pagination .active a, .pagination .active span {float: left; padding: 0 14px; line-height: 34px; text-decoration: none; background-color: transparent; border:none !important; border-left-width: 0; background-image: url("../images/overlay-lightj3.png"); background-repeat: repeat; }
+ul.pagenav li.pagenav-next a, ul.pagenav li.pagenav-prev a, ul.pagenav li.pagenav-next a:hover, ul.pagenav li.pagenav-prev a:hover {color: #ffffff!important;}
+ul.pagination li a{color:#999999 !important; font-weight:normal !important;}
+ul.pagination li a:hover{color:#999999 !important; font-weight:normal !important;}
+ul.pagination li, li.pagenav-prev, li.pagenav-next{
+    background-color:#f1f1f1;
+    color:#999999;
+    margin: 0 0 7px;
+    padding:15px;
+    border-radius:1px;
+    border:1px solid #D7D7D7;
+}
+
+
+
+/*page nav in blog layout etc*/
+#main a.pagenav, #main a:hover.pagenav{font-weight: bold; text-decoration: underline;}
+#main ul.pager{margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 5px;}
+
+/*login module*/
+/*fix height of Forgot password / Forgot username icon area*/
+.input-append .add-on, .input-prepend .add-on{height:18px;}
+.input-prepend.input-append .add-on:last-child, .input-prepend.input-append .btn:last-child {height:18px;}
+
+div#form-login-username.control-group div.controls div.input-prepend span.add-on{padding: 8px 12px; margin-bottom:10px;}
+div#form-login-password.control-group div.controls div.input-prepend span.add-on{padding: 8px 12px; margin-bottom:10px;}
+
+/*add margin above and below remember me checkbox and label*/
+div#form-login-remember.control-group{margin:5px 0px;}
+
+/*Line up remember me label with checkbox*/
+div#form-login-remember.control-group label.control-label{margin:0px;}
+
+/*Create an account link styling*/
+ul.unstyled li a{box-shadow:0px 0px 0px 0px; padding:5px 0px 5px 0px;}
+
+/*remove list style and left margin from Login form links*/
+ul.nav{list-style: none outside none !important; margin-left:0px;}
+
+/*web links and article category list*/
+/*remove list style from web links, article category list*/
+.list-striped, .row-striped {list-style: none outside none !important;}
+
+/*remove left margin from web links, article category list which allowed for bullets*/
+ul.category{margin-left:0px;}
+
+/*featured articles*/
+/*remove list style and left margin from featured articles items more links on bottom of page*/
+.items-more ul, div.items-more ul.nav li a{list-style:none !important; margin-left:0px; border:none !important; background-image: url("../images/overlay-lightj3.png"); background-repeat: repeat;}
+.nav-tabs.nav-stacked > li > a:hover {background-color:transparent;}
+
+/*contact slider*/
+/*remove list style and left margin from contact links (located in contact slider)*/
+.contact-links ul{list-style: none outside none !important; margin-left:0px;}
+/*style link background*/
+div.contact-links ul.nav li a{border:none !important;}
+
+/*slider styling for contacts form*/
+div.contact div#slide-contact.accordion{margin-bottom: 18px;}
+div.contact div#slide-contact.accordion div.accordion-group{margin-bottom: 2px; border:none !important; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+div#slide-contact.accordion div.accordion-group div.accordion-heading{
+    margin-bottom:1px; 
+    margin-top:10px; 
+    cursor:hand; 
+    box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.19);
+    margin-bottom: 1px;
+}
+
+div.contact div#slide-contact.accordion div.accordion-group div.accordion-heading strong a.accordion-toggle {
+    display: block;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 15px;
+    text-align: center;
+}
+div.contact  div.accordion-inner{padding: 9px 15px; border-top:none !important;}
+
+/*contact form message box field*/
+#jform_contact_message{width: 99%;}
+
+/*article info DETAILS head styling*/
+
+.article-info-term {
+    display: none;
+}
+.article-info {
+    color: #888888;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0;
+}
+.article-info .actions {
+    float: right;
+    margin: -10px 0 0;
+    width: 50px;
+}
+.articleContent img {
+    display: block;
+    margin: 20px auto;
+}
+.article-info dd {
+    border-right: 1px solid #CCCCCC;
+    display: inline;
+    margin: 0 7px 0 0;
+    padding: 0 7px 0 0;
+}
+.article-info dd:last-child {
+    border-right: medium none;
+}
+dl.article-info {
+    clear: both;
+    display: inline;
+    margin: 10px 0;
+    width: 100%;
+}
+dd > div {
+    display: inline;
+}
+
+/*Category list*/
+/*label badge color in category list*/
+.label-info, .badge-info {}
+
+/*label badge positioning category list*/
+ul.category li.cat-list-row0 span.list-hits, ul.category li.cat-list-row1 span.list-hits{}
+
+/*Category list every second item styling*/
+.list-striped li:nth-child(odd),
+.list-striped dd:nth-child(odd),
+.row-striped .row:nth-child(odd),
+.row-striped .row-fluid:nth-child(odd),
+
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th{
+    background-image: url("../images/overlay-lightj3.png") !important; background-repeat: repeat;
+}
+
+li.cat-list-row0,li.cat-list-row1{padding:20px;}
+tr.even, .cat-list-row0 {background-color: transparent;}
+
+table.category .createdby, table.category .list-hits, table.category .cat-list-row0, table.category .cat-list-row1 {color:#000000 !important;}
+
+
+/*Responsive select menu height fix*/
+.js .selectnav {height: 40px !important;}
+
+/*Rapid-Contact - Module styling*/
+/*set max widths for input boxes*/
+div.rapid_contact form table tbody tr td input.rapid_contact{max-width:130px;}
+div.rapid_contact form table tbody tr td textarea.rapid_contact{max-width:130px;}
+
+/*padding for button*/
+div.rapid_contact form table tbody tr td input.rapid_contact{padding:5px 10px; pointer:hand;}
+
+
+/*Input Boxes Styling*/
+.form-search input, .form-search textarea, .form-search select, 
+.form-search .help-inline, .form-search .uneditable-input, 
+.form-search .input-prepend, .form-search .input-append, 
+.form-inline input, .form-inline textarea, .form-inline select, 
+.form-inline .help-inline, .form-inline .uneditable-input, 
+.form-inline .input-prepend, .form-inline .input-append, 
+.form-horizontal input, .form-horizontal textarea, 
+.form-horizontal select, .form-horizontal .help-inline, 
+.form-horizontal .uneditable-input, .form-horizontal 
+.input-prepend, .form-horizontal .input-append{padding:8px !important;}
+
+/*Tags Styling*/
+.tags{margin-bottom: 10px !important;}
+div.tags span a.label {border-radius: 3px 3px 3px 3px; font-size: 9px; padding: 4px;}
+
+/*User Rating*/
+span.content_vote select {padding: 7px !important; margin-bottom: 5px;}
+#main span.content_vote input.btn{border:none !important; margin-bottom: 5px;}
+.content_rating, .content_vote{margin:5px 0px;}
+
+/*control Group*/
+div.control-group div.controls select{padding: 5px !important;}
+
+/*User Profile*/
+dl {
+    margin-bottom: 18px;
+}
+dt, dd {
+    line-height: 30px;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 20px;
+}
+.dl-horizontal {
+}
+
+.dl-horizontal:after {
+    clear: both;
+}
+.dl-horizontal dt {
+    clear: left;
+    float: left;
+    overflow: hidden;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+    margin-right: 5px;
+}
+.dl-horizontal dd {
+}
+
+legend {
+    display: block;
+    font-size: 19.5px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* Editor */
+div#editor-xtd-buttons.btn-toolbar div.btn-toolbar a.btn {
+    margin-bottom: 5px !important;
+}
+
+
+/*--------------End Joomlage.com Template specific for Joomla3--------------*/

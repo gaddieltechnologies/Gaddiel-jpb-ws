@@ -1,0 +1,1193 @@
+@import url("jstuff.css");
+
+/* 
+
+Nexus.css - Contents
+
+01: Global
+02: Header (logo, slogan, search, social, custom module)
+03: Hornav Navigation
+04: Responsive Navigation
+05: Slideshow
+06: Breadcrumbs
+07: Default Module Styling
+08: Top Modules
+09: Main
+10: Bottom Modules
+11: Base Modules
+12: Copyright / Footer
+13: Jumbotron
+14: Nexus Overrides Css
+15: Font Awesome
+16: Animate Css
+17: Scroll to Top
+18: Miscellaneous 
+
+*/
+
+
+/***************************************************************************/
+/* 01: Global */
+/***************************************************************************/
+
+/* Body */
+body {
+    width: 100%;
+    line-height:180%;
+    color:#000000;
+    background-repeat: repeat;
+}
+
+/* Paragraph */
+p {
+    word-spacing: 4px;
+}
+
+/*H2's*/
+h2, h2 a:link, h2 a:visited, .content_header, .articleHead{
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 55px;
+    margin: 0 0 10px !important;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color:#ffffff;
+}
+a:hover {
+    color:#F5F5F5;
+}
+
+
+/*-- Framework --*/
+#content100 {
+    float:left;
+}
+
+#header_items {
+    width: 100%;
+}
+
+#header.block_holder, 
+#slideshow.block_holder,
+#footermenu.block_holder {
+    padding:0;
+}
+
+.module_margin {
+    margin:5px;
+}
+
+.top-1, 
+.top-2, 
+.contenttop, 
+.contentbottom, 
+.bottom-1, 
+.bottom-2, 
+.base-1, 
+.base-2 {
+    float: left;
+}
+
+#breadcrumb-1, 
+#footer-1, 
+#footer-2, 
+#footer-3 {
+    float: left; 
+    width:100%;
+}
+
+.block_holder {
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.container {
+    width:100%; 
+}
+
+.container_bg {
+  width:100%; 
+}
+
+.wrapper960 {
+    width:960px; 
+    margin:0 auto; 
+}
+
+.clear {
+    clear:both;
+}
+
+
+/***************************************************************************/
+/* 01: End Global */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 02: Header */
+/***************************************************************************/
+
+/* Header Container */
+#container_header {
+    box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.19);
+    height: 125px;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    border-top:5px solid #000000;
+}
+
+#header {
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    position:relative;
+}
+
+/* Triangle */
+#header_triangle{
+width: 0;
+height: 0;
+/*border-style: solid;
+border-width: 20px 15px 0 15px;*/
+margin: 0 auto;
+}
+
+
+/* Header Items */
+/*--Logo & Slogan Layout--*/
+
+/* Logo */
+#logo {
+    position:absolute;
+    top: 0px;
+    z-index: 1100000;
+}
+
+.logo_container {
+  margin: 0px; 
+  top:0px; 
+  left:0px; 
+}
+
+.logoimage {
+  margin:0; 
+  padding:0; 
+}
+.logoimage a {
+  display:block; 
+  position:relative; 
+  z-index:0; 
+  width:100%; 
+  background: url(../images/logo.png) no-repeat; z-index:1;
+}
+
+
+.logo_container, .logoimage, .logoimage a {
+    height:65px;
+}
+
+.logo-text {
+    margin-left: 0px;
+    margin-top: 5px;
+    padding:0;
+    text-align: center;
+}
+
+.logo-text a {
+    font-size: 45px !important;
+    font-weight: normal;
+    left: 0;
+    top: 0px;
+    white-space:nowrap; 
+    outline:none; 
+    position:relative; 
+    text-decoration:none; 
+    width:100%;
+}
+
+
+/* Slogan */
+p.site-slogan {
+    font-size: 10px;
+    left: 0px;
+    letter-spacing: 1px;
+    text-align: center;
+    top: -10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding:0; 
+    position:relative; 
+    white-space:nowrap;
+}
+
+
+
+/* Search */
+#search {
+    border-radius: 0px 0px 0px 0px;
+    height: 27px;
+    right: 0px;
+    top: 58px;
+    height:20px;
+    position:absolute;
+    z-index:10;
+}
+
+#search form {
+    margin:0;
+}
+
+#search .inputbox {
+    color: #888888;
+   /* font: 14px Arial,Helvetica,sans-serif;*/
+    font: 12px Arial,Helvetica,sans-serif;
+    /*height: 24px;*/
+    height: 10px;
+    padding: 10px;
+    border:medium none;
+    margin:0;
+    width:165px;
+    -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.30);
+    box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.30);
+}
+
+#search form .search label{
+    display: none;
+}
+
+
+
+/* Social Media */
+
+#social {
+  padding:0;
+  z-index: 1;
+  position: absolute;
+  left: 10px;
+  top: 85px;
+  border-radius:3px;
+}
+#social ul{
+  list-style: none;
+  margin: 0 0 0px 0;
+  float: right;
+}
+#social ul li{
+  display:block;
+  float: left;
+  margin:0px 3px;
+  padding:0 0 0px 0;
+}
+#social ul li a{
+  display:block;
+  width:40px;
+  height:40px;
+  text-indent:-9999px;
+  background-position: 0px -40px;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  padding-bottom: 1px;
+  border-radius: 20px;
+  box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.19) inset;
+}
+#social ul li a{
+  opacity: 1;
+  background-color: transparent;
+}
+
+.social-facebook a { background: url(../images/social/facebook.png) no-repeat 50% 50%; background-color: #3b5998 }
+.social-facebook a:hover { background-color: #595959 }
+
+.social-twitter a { background: url(../images/social/twitter.png) no-repeat 50% 50%; background-color: #48c4d2 }
+.social-twitter a:hover { background-color: #595959 }
+
+.social-googleplus a { background: url(../images/social/googleplus.png) no-repeat 50% 50%; background-color: #d94a39 }
+.social-googleplus a:hover { background-color: #595959 }
+
+.social-youtube a { background: url(../images/social/youtube.png) no-repeat 50% 50%; background-color: #f45750 }
+.social-youtube a:hover { background-color: #595959 }
+
+.social-pinterest a { background: url(../images/social/pinterest.png) no-repeat 50% 50%; background-color: #cb2027 }
+.social-pinterest a:hover { background-color: #595959 }
+
+.social-dribbble a { background: url(../images/social/dribbble.png) no-repeat 50% 50%; background-color: #ef5b92 }
+.social-dribbble a:hover { background-color: #595959 }
+
+.social-flickr a { background: url(../images/social/flickr.png) no-repeat 50% 50%; background-color: #f1628b }
+.social-flickr a:hover { background-color: #595959 }
+
+.social-skype a { background: url(../images/social/skype.png) no-repeat 50% 50%; background-color: #18b7f1 }
+.social-skype a:hover { background-color: #595959 }
+
+.social-digg a { background: url(../images/social/digg.png) no-repeat 50% 50%; background-color: #2882c6 }
+.social-digg a:hover { background-color: #595959 }
+
+.social-linkedin a { background: url(../images/social/linkedin.png) no-repeat 50% 50%; background-color: #71b2d0 }
+.social-linkedin a:hover { background-color: #595959 }
+
+.social-vimeo a { background: url(../images/social/vimeo.png) no-repeat 50% 50%; background-color: #62a0ad }
+.social-vimeo a:hover { background-color: #595959 }
+
+.social-yahoo a { background: url(../images/social/yahoo.png) no-repeat 50% 50%; background-color: #ab64bc }
+.social-yahoo a:hover { background-color: #595959 }
+
+.social-tumblr a { background: url(../images/social/tumblr.png) no-repeat 50% 50%; background-color: #3a5976 }
+.social-tumblr a:hover { background-color: #595959 }
+
+.social-deviantart a { background: url(../images/social/deviantart.png) no-repeat 50% 50%; background-color: #d0de21 }
+.social-deviantart a:hover { background-color: #595959 }
+
+.social-delicious a { background: url(../images/social/delicious.png) no-repeat 50% 50%; background-color: #3274d1  }
+.social-delicious a:hover { background-color: #595959 }
+
+.social-rss a { background: url(../images/social/rss.png) no-repeat 50% 50%; background-color: #fe9900 }
+.social-rss a:hover { background-color: #595959 }
+
+
+/* Custom Module */
+#custom {
+    padding: 3px;
+    position: absolute;
+    z-index: 10;
+    top:105px;
+    right:0px;
+}
+
+#custom p, #custom .module_margin{
+    margin:0px;
+}
+
+/* Header Responsive Divs */
+#container_logo_menu_mobile, 
+#container_social_mobile, 
+#container_hornav_mobile{
+    display:none;
+}
+
+#container_social_mobile,
+#container_hornav_mobile{
+    display:none;
+}
+
+#social_mobile {
+    padding: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+/***************************************************************************/
+/* End Header */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 03: Hornav Navigation */
+/***************************************************************************/
+
+#hornav {
+    clear: both;
+    position: absolute;
+    right: 0;
+    /*top: 69px;*/
+    top: 98px;
+    width: 99.8%;
+    box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.19);
+    /*border-radius:5px;*/
+    
+}
+
+#hornav > ul {
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+}
+
+#hornav > ul > li a{
+  display: block;
+  /*padding: 23px 14px;*/
+   padding: 1px 14px;
+  margin: 0;
+  list-style: none outside none;
+  line-height: 1.8em;
+  font-weight: light;
+  font-size: 13px; 
+  /*text-transform: capitalize;*/
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#hornav > ul > li > a:hover{
+  text-decoration: none;
+}
+
+
+
+
+#hornav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+#hornav ul li ul {
+}
+
+#hornav ul ul {
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  list-style: none;
+  margin-top: -5px;
+  padding: 5px 0 !important;
+  min-width: 260px;
+  z-index: 1000;
+}
+
+#hornav ul ul li {
+  min-height: 22px;
+  text-align: left; /*required to position li's when menu centered */
+  width: 100%; /*required to position li's when menu centered */
+}
+
+#hornav ul ul li a {
+  display: block;
+  padding: 7px 15px;
+ /* text-transform: capitalize;*/
+  text-transform: uppercase;
+  font-size: 13px;
+  border-bottom: 1px solid;
+}
+
+
+#hornav ul ul li a:active,
+#hornav ul ul li a:focus,
+#hornav ul ul li a:hover {
+  text-decoration: none;
+}
+
+#hornav ul ul li:first-child {
+  border-top: none;
+}
+
+#hornav ul ul li:hover a {
+  text-decoration: none;
+}
+
+#hornav ul ul ul:before {
+  display: none;
+}
+
+#hornav ul ul:before {
+  background: transparent url('../images/menu_arrow.png') no-repeat 0 0;
+  content: "";
+  display: block;
+  height: 10px;
+  left: 26px;
+  position: absolute;
+  top: -10px;
+  width: 14px;
+}
+
+#hornav li ul,
+#hornav li ul li ul {
+  position: absolute;
+  height: auto;
+  min-width: 260px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+ /* top: 75px;*/
+   top: 37px;
+  z-index: 1000;
+}
+
+#hornav li:hover > ul,
+#hornav li ul li:hover > ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+ /* top: 75px;*/
+   top: 37px;
+}
+
+#hornav li:hover > ul,
+#hornav li ul li:hover > ul {
+  -webkit-transition: opacity 300ms linear;
+}
+
+#hornav li ul li ul {
+  left: 230px;
+  top: 0;
+}
+
+#hornav li ul li:hover > ul {
+  top: 0px;
+  left: 260px;
+}
+
+
+/***************************************************************************/
+/* 03: End Hornav Navigation */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 04: Responsive Navigation */
+/***************************************************************************/
+
+/*-----------------------------------------------------------------------------------*/
+/* Top Menu - Mobile */
+/*-----------------------------------------------------------------------------------*/
+
+#hornav_mobile.block_holder {
+  padding: 10px;
+}
+.hornavmenumobile {
+  display: none;
+}
+#container_hornav_mobile {
+  display: none;
+}
+/*
+    Mobile Menu Core Style
+*/
+.slicknav_menu {
+  display: none;
+  background: #000000;
+  padding: 5px;
+  font-size: 18px;
+  *zoom: 1;
+}
+.slicknav_menu:before,
+.slicknav_menu:after {
+  content: " ";
+  display: table;
+}
+.slicknav_menu:after {
+  clear: both;
+}
+.slicknav_menu .slicknav_menutxt {
+  color: #FFF;
+  font-weight: bold;
+  display: block;
+  line-height: 1.188em;
+  float: left;
+}
+.slicknav_menu .slicknav_icon {
+  float: left;
+  margin: 0.188em 0 0 0.438em;
+}
+.slicknav_menu .slicknav_no-text {
+  margin: 0;
+}
+.slicknav_menu .slicknav_icon-bar {
+  font-size: 18px;
+  display: block;
+  width: 1.125em;
+  height: 0.125em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.slicknav_menu .slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.5em 0.7em;
+  line-height: 1.125em;
+  cursor: pointer;
+}
+.slicknav_menu .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.188em;
+}
+.slicknav_menu .slicknav_nav {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  clear: both;
+}
+.slicknav_menu .slicknav_nav ul,
+.slicknav_menu .slicknav_nav li {
+  display: block;
+}
+.slicknav_menu .slicknav_nav a {
+  padding: 10px;
+  margin: 2px 0px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+.slicknav_menu .slicknav_nav a:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+.slicknav_menu .slicknav_nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.slicknav_menu .slicknav_nav ul li {
+  background: rgba(0, 0, 0, 0.2);
+}
+.slicknav_menu .slicknav_nav ul li li {
+  background: rgba(0, 0, 0, 0.3);
+  text-indent: 10px;
+}
+.slicknav_menu .slicknav_nav ul li li li {
+  background: rgba(0, 0, 0, 0.3);
+  text-indent: 20px;
+}
+.slicknav_menu .slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em;
+}
+.slicknav_menu .slicknav_nav .slicknav_item {
+  display: block;
+  cursor: pointer;
+  padding: 14px;
+  margin: 2px 0px;
+}
+.slicknav_menu .slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0;
+}
+.slicknav_menu .slicknav_nav .slicknav_item:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+.slicknav_menu .slicknav_nav .slicknav_item a {
+  display: inline;
+}
+.slicknav_menu .slicknav_nav .slicknav_txtnode {
+  margin-left: 15px;
+}
+.slicknav_menu ul li, .slicknav_btn {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    height: 2px !important;
+    width: 25px;
+    background-color:#ffffff;
+}
+
+.slicknav_menu .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+    margin-top: 4px;
+}
+
+.slicknav_menu .slicknav_btn {
+    padding: 10px;
+}
+
+
+/***************************************************************************/
+/* 04: End Responsive Navigation */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 05: Slideshow */
+/***************************************************************************/
+
+/* Slideshow Navigation Buttons on image */
+a.nivo-prevNav {
+    left: 20px;
+}
+
+a.nivo-prevNav {
+    right: 20px;
+}
+
+/* slideshow navigation */
+.nivo-controlNavHolder{
+    padding: 10px 0px; 
+    background-image: url(../images/slideshow-bottom.png); 
+    background-position:top center; 
+    background-repeat:no-repeat; 
+    height:30px;
+}
+
+.nivo-controlNav a {
+    background: url("../images/slide-bullet.png") no-repeat scroll 0 0 transparent !important;
+    border: 0 none;
+    display: block;
+    float: left;
+    height: 30px;
+    margin-right: 3px;
+    text-indent: -9999px;
+    width: 30px;
+}
+
+.nivoSlider {
+    border-radius: 20px 20px 0 0;
+}
+
+/***************************************************************************/
+/* 05: End Slideshow */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 06: Breadcrumbs */
+/***************************************************************************/
+
+#breadcrumb .module_padding {
+    padding:0px;
+}
+
+#breadcrumb-1 .module_margin{
+    margin:0px;
+}  
+
+#breadcrumb .module{
+    padding-left:10px; 
+    padding-right:10px; 
+    border:none;
+}
+
+#breadcrumb.block_holder{
+    padding:5px 25px !important;
+}
+
+div.breadcrumbs {
+    color:#ffffff;
+}
+
+/***************************************************************************/
+/* 06: End Breadcrumbs */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 07: Default Module Styling */
+/***************************************************************************/
+
+/* Module Header Styling */
+.module h3, 
+.module_menu h3 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 200;
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+    margin:0;
+}
+
+.module_padding {
+    height:100%;
+    padding:25px;
+}
+
+.module_content {
+    padding:5px 0;
+}
+
+#sidecol .module {
+    margin-bottom:10px;
+}
+
+
+
+/* Module Styling - Menus */
+.module ul, 
+.module_menu ul {
+    list-style-type: none;
+}
+
+.module ul a, 
+.module_menu ul a {
+    border-bottom: 1px dotted;
+    color: #000000;
+    margin: 0 0 7px;
+    padding: 8px;
+    display:block;
+    text-decoration:none !important;
+}
+
+.module ul a:hover, 
+.module_menu ul a:hover, 
+.module ul a:focus, 
+.module_menu ul a:focus {
+    color: #999999;
+}
+
+
+/*use to highlight active link*/
+.module ul li.active a, 
+.module_menu ul li.active a {
+}
+
+.module ul li li a, 
+.module_menu ul li li a {
+    border:none !important;
+    padding-left:25px;
+}
+
+/***************************************************************************/
+/* 07: End Default Module Styling */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 08: Top Modules */
+/***************************************************************************/
+
+/* Modules Header Styling */
+#top_modules .module h3, 
+#top_modules .module_menu h3{
+    text-align: center;
+}
+
+/***************************************************************************/
+/* 08: End Top Modules */
+/***************************************************************************/
+
+
+/**********************************************************************************/
+/* 09: Main (Component area sidecolumns, contenttop & content bottom mods) */
+/**********************************************************************************/
+
+/* Main Content */
+.maincontent{
+    /*padding: 20px 30px;*/
+    padding: 80px 30px;
+}
+
+/* Contenttop, Contentbottom Modules */
+.contenttop .module_margin{
+    margin-top:0px;
+}
+
+/* Side Columns */
+#sidecol_a, #sidecol_b {
+height:100%;
+} 
+
+.sidecol_block .module, 
+.sidecol_block .module_menu{
+    margin-bottom:30px;
+}
+
+.sidecol_block .module_header h3{
+    padding: 8px 0 8px 0px;
+    text-align: left;
+}
+
+/*********************************************************************************/
+/* 09: End Main */
+/*********************************************************************************/
+
+
+/***************************************************************************/
+/* 10: Bottom Modules */
+/***************************************************************************/
+
+/***************************************************************************/
+/* 10: End Bottom Modules */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 11: Base Modules */
+/***************************************************************************/
+
+/* Modules Header Styling */
+#base .module h3, 
+#base .module_menu h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Modules - Menus */
+#base .module ul a, 
+#base .module_menu ul a {
+    border:none !important;
+    background: url("../images/underline.png");
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    color: #ffffff;
+    margin: 0 0 7px;
+    padding: 8px 0 15px 8px;
+}
+
+#base a{
+    color:#FFFFFF !important; 
+    text-decoration:underline;
+}
+
+#base a:hover{
+    color:#F2F2F2 !important; 
+    text-decoration:underline;
+}
+
+/***************************************************************************/
+/* 11: End Base Modules */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 12: Copyright / Footer */
+/***************************************************************************/
+
+#container_copyright_footermenu{
+-webkit-box-shadow: 0px -5px 4px -3px rgba(0, 0, 0, 0.75);
+-moz-box-shadow:    0px -5px 4px -3px rgba(0, 0, 0, 0.75);
+box-shadow:         0px -5px 4px -3px rgba(0, 0, 0, 0.75);
+}
+
+
+/* Footer Menu */
+div#footermenu.block_holder div.module_margin{
+    margin:0px !important;
+}
+
+#footermenu ul li{
+    padding: 5px 0;
+    display: inline-block;
+}
+
+#footermenu ul li a {
+    border-right: 2px solid #2c2c2c;
+    padding: 0 10px;
+    font-size: 11px;
+    display: block;
+    text-decoration: none;
+}
+
+#footermenu.block_holder div.module_margin ul.menu{
+    text-align: center; 
+    margin:0px !important;
+}
+
+#footermenu ul li:last-child a {
+    border:none;
+}
+
+
+/* Copyright */
+ #copyright {
+  text-align: center;
+  clear: both;
+ }
+ 
+ #copyright a {
+ color:#bbb;
+ text-decoration:none;
+ }
+ 
+  #copyright.module_margin {
+    margin:0px !important;
+ }
+
+/***************************************************************************/
+/* 12: End Copyright / Footer */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 13: Jumbotron Styling */
+/***************************************************************************/
+
+#container_jumbotron_bg, #container_jumbotron{height:100%;}
+
+.jumbotron-btn {
+    border: 3px solid;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+a.jumbotron-btn{
+  cursor: pointer;
+}
+
+a:hover.jumbotron-btn{
+}
+
+
+.fade{
+    opacity: 0.5;
+}
+
+
+.fade:hover{
+   opacity: 0.8;
+   transition: opacity .20s ease-in-out;
+   -moz-transition: opacity .20s ease-in-out;
+   -webkit-transition: opacity .20s ease-in-out;
+}
+
+/***************************************************************************/
+/* 13: End Jumbotron Styling */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 14: Nexus Overrides */
+/***************************************************************************/
+
+/*Component User Login*/
+.login_joomlage {
+    border: 1px solid;
+    margin: 15px auto 0;
+   /* margin: 0 auto;*/
+    max-width: 400px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius:20px;
+}
+
+ul.login_menu_joomlage{
+    text-align: center; 
+    margin-left: 0px;
+}
+
+ul.login_menu_joomlage li{
+    display:inline-block; 
+    margin: 0 auto; 
+    list-style: none; 
+    clear: none; 
+    padding:5px;
+}
+
+/***************************************************************************/
+/* 14: End Nexus Overrides */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 15: Font Awesome */
+/***************************************************************************/
+
+/* All icons (classes beginning with “fa-” */
+[class^="fa-"]:before, [class*=" fa-"]:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right:10px;
+}
+
+/***************************************************************************/
+/* 15: End Font Awesome */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 16: Animate Css */
+/***************************************************************************/
+
+.animatediv{    
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    font-size: 22px;
+    margin: 30px auto 60px;
+    padding: 80px 0;
+    text-align: center;
+    color: white !important;
+    width: 100%;
+}
+
+/***************************************************************************/
+/* 16: End Animate Css */
+/***************************************************************************/
+
+
+/***************************************************************************/
+/* 17: Scroll to Top  */
+/***************************************************************************/
+
+.scrollup{
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom:35px;
+    right:25px;
+    display:none;
+    text-indent:-9999px;
+    background: url(../images/scroll.png) no-repeat;
+    background-color: #000000;
+    background-position: center center;
+    z-index:1000;
+    opacity:0.8;
+    border-radius:60px;
+}
+
+
+/***************************************************************************/
+/* 17: End Scroll to Top  */
+/***************************************************************************/
+
+
+
+/***************************************************************************/
+/* 18: Miscellanenous */
+/***************************************************************************/
+
+/* purchase button */
+.purchase-btn, 
+.purchase-btn:active{
+    border-radius:0px !important; 
+    padding: 15px 50px; 
+    font-size: 18px; 
+    box-shadow: none !important;
+}
+
+
+/* login Module */
+.userdata{margin-top: 10px;}
+
+
+/* background parallax images */
+#container_slideshow_bg,
+#container_jumbotron_bg,
+#container_top_modules_bg,
+#container_maincontent_bg,
+#container_base_modules_bg, 
+#container_bottom_modules_bg{
+background-position: 50% 50%;
+-moz-background-size: cover !important;
+-o-background-size: cover !important;
+background-size: cover !important;}
+
+
+/* Spacer divs */
+.spacer{
+  /*height: 125px !important;*/
+  height: 1px !important;
+}
+
+
+/***************************************************************************/
+/* 18: End Miscellanenous */
+/***************************************************************************/

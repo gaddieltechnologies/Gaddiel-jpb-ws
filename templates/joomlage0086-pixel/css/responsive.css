@@ -1,0 +1,289 @@
+/*Global Responsive CSS*/
+img {max-width: 100% !important;} 
+form{margin:0px !important;}
+#mobile_search form .search label{display: none !important;}
+#custom {position: relative !important;}
+
+
+/* # - Medium Devices
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+/* Default Settings */
+.wrapper960 {width:95% !important;}
+.spacer {height: 160px !important;}
+
+/* Hide Containers/divs */
+#container_header {display:none !important;}
+#hornav{display:none !important;}
+
+/* disable css animations */
+.animated {
+	-webkit-animation-duration: 0;
+	animation-duration: 0;
+	-webkit-animation-delay: 0;
+	animation-delay: 0;
+}
+
+/* Adjust divs*/
+#container_jumbotron.container { padding-top: 130px !important;}
+#slideshow.block_holder{padding-top: 0px !important;}
+
+
+/*------ Mobile Containers Styling------ */
+
+/* Mobile Menu */
+.slicknav_menu {display:block; clear: both;}
+.slicknav_nav {margin-top: 55px !important;}
+
+
+/* Show mobile logo and navigation */
+#container_logo_menu_mobile {display: block; z-index: 5000; height: 140px; padding-top: 20px; position: absolute; top: 0px; border-bottom:1px solid rgba(0, 0, 0, 0.1);}
+#logo_mobile {z-index: 5000;}
+#logo_mobile a img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0;
+
+}
+
+
+/* Show mobile social icons and search */
+#social_mobile{height:auto;}
+#social {
+    float: right;
+    left: 25px;
+    max-width: 30%;
+    top: 90px !important;
+    z-index: 11;
+}
+
+
+/* Search */
+#mobile_search{
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+#mobile_search form .search label{
+	display: none !important;
+}
+
+#mobile_search .inputbox {
+    border:none;
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: #5B5B5B;
+	font: 14px Arial,Helvetica,sans-serif;
+	height: 25px;
+	padding:5px 5px 3px 15px !important;
+}
+
+}
+
+
+/* # - Small Devices
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (max-width: 767px) {
+
+/* Default Settings */	
+.wrapper960 {width:95% !important;}
+.spacer {height: 125px !important;}
+.top-1, .top-2, .contenttop, .contentbottom, .bottom-1, .bottom-2, .base-1, .base-2, #sidecol_a, #sidecol_b {width:100% !important;}
+#sidecol_a, #sidecol_b{width:100% !important;}
+#content_remainder {width:100% !important;}
+
+/* Hide divs */
+#container_header {display:none !important;}
+#hornav{display:none !important;}
+#breadcrumb.block_holder {display: none;}
+
+/* disable css animations */
+.animated {
+	-webkit-animation-duration: 0;
+	animation-duration: 0;
+	-webkit-animation-delay: 0;
+	animation-delay: 0;
+}
+
+/* Adjust divs*/
+#container_main{padding-top:0px !important;}
+#slideshow.block_holder{padding-top: 0px;}
+#container_jumbotron.container{padding-top:60px !important; padding-bottom:60px !important;}
+
+
+/*------ Mobile Containers Styling------ */
+
+/* Mobile Menu */
+.slicknav_menu {display:block; clear: both;}
+.slicknav_nav {margin-top: 55px !important;}
+#responsive_menu {margin-top: 20px;}
+
+
+
+/* Show mobile logo and navigation */
+#container_logo_menu_mobile {display: block; z-index: 5000; height: 125px; padding-top: 0px; position: absolute; top: 0px; border-bottom:1px solid rgba(0, 0, 0, 0.1);}
+#logo_mobile a img{display: block;}
+
+#logo_mobile {
+    left: -10px;
+    position: absolute;
+    top: 50px !important;
+}
+
+
+#header_shadow{display: none !important}
+
+/* Show mobile social icons and search */
+
+#social_mobile{height:auto;}
+#social {
+    float: right;
+    left: 0;
+    margin: 2px;
+    position: relative;
+    right: 20px !important;
+    top: -10px !important;
+    z-index: 11;
+}
+
+
+/* Search */
+#mobile_search{display: none !important;}
+
+#mobile_search form .search label{
+	display: none !important;
+}
+
+#mobile_search .inputbox {
+    border:medium;
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: #5B5B5B;
+	font: 14px Arial,Helvetica,sans-serif;
+	height: 25px;
+	padding:5px !important;
+}
+
+}
+
+
+/*  # - Extra Small Devices
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 440px) {
+
+/* Defaults */
+.spacer {height: 125px !important; position: fixed;}
+body{margin-top: 100px !important;}
+h2, h2 a:link, h2 a:visited, .content_header, .articleHead {font-size: 35px !important; line-height: 38px;}
+
+
+/* adjust divs*/
+#container_jumbotron.container{padding-top:60px !important; padding-bottom:60px !important;}
+
+/* remove block holder padding left and right */
+.block_holder{padding-left: 0px !important; padding-right: 0px !important;}
+
+/*------ Mobile Containers Styling------ */
+
+/* Mobile Menu */
+.slicknav_menu {display:block; clear: both;}
+.slicknav_nav {margin-top: 55px !important;}
+#responsive_menu {margin-top: 20px;}
+
+
+/* Show mobile logo and navigation */
+#container_logo_menu_mobile {display: block; z-index: 5000; height: 125px; padding-top: 0px; position: absolute; top: 0px; border-bottom:1px solid rgba(0, 0, 0, 0.1);}
+
+
+#logo_mobile a img{display: block;}
+
+#logo_mobile {
+    left: -10px;
+    position: absolute;
+    top: 50px !important;
+}
+
+
+#header_shadow{display: none !important}
+
+/* Show mobile social icons and search */
+
+#social_mobile{height:auto;}
+#social {
+    float: right;
+    left: 0;
+    margin: 2px;
+    position: relative;
+    right: 20px !important;
+    top: -10px !important;
+    z-index: 11;
+}
+
+
+/* Search */
+#mobile_search{display: none !important;}
+
+#mobile_search form .search label{
+	display: none !important;
+}
+
+#mobile_search .inputbox {
+    border:medium;
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: #5B5B5B;
+	font: 14px Arial,Helvetica,sans-serif;
+	height: 25px;
+	padding:5px !important;
+}
+
+}
+
+
+
+/* ipad iphone specific */
+
+
+/* # - iPad Landscape
+================================================== */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  { 
+
+/* Set Jumbotron to correct width */
+#container_jumbotron_bg { -webkit-background-size: 1024px !important;}
+}
+
+
+/* # - iPad Potrait
+================================================== */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+/* Default Settings */	
+.wrapper960 {width:95% !important;}
+.top-1, .top-2, .contenttop, .contentbottom, .bottom-1, .bottom-2, .base-1, .base-2, #sidecol_a, #sidecol_b {width:100% !important;}
+#content_remainder {width:100% !important;}
+img {float:none !important;}
+
+/* Set Jumbotron to correct width */
+#container_jumbotron_bg { -webkit-background-size: 1024px !important;}
+#container_jumbotron.container { padding-top: 230px !important;}
+
+}
+
+
+
+/* # - iPhone 2G-4S in portrait & landscape
+================================================== */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+	#container_jumbotron_bg { -webkit-background-size: 480px !important;}
+}

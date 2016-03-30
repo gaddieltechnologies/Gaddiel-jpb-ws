@@ -1,0 +1,134 @@
+/* Fieldset Styling */
+.accordion-heading .accordion-toggle {
+background: url("../images/admin/grad1.png") repeat scroll 0 0 transparent;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #EEEEEE;
+    clear: both;
+    color: #333333;
+    display: block;
+    font: bold 13px/43px Arial,Helvetica,sans-serif;
+    height: 40px;
+    margin: 5px;
+    min-height: 32px;
+    padding: 0 15px;
+    position: relative;
+    text-shadow: 0 1px 1px #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* Alert Boxes */
+.alert {float:left; margin-bottom: 0px; max-width:550px;}
+.alert-blue {
+    color: #fff;
+    font-size: 14px;
+    clear: both;
+    line-height: 18px;
+    background: #50b5f9; /* Old browsers */
+    background: -moz-linear-gradient(top, #5bb2d8 0%, #2a7fb8 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#50b5f9), color-stop(99%,#147ec7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #50b5f9 0%,#147ec7 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #50b5f9 0%,#147ec7 99%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #50b5f9 0%,#147ec7 99%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50b5f9', endColorstr='#147ec7',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, #50b5f9 0%,#147ec7 99%); /* W3C */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 10px 15px;
+    text-shadow:1px 1px #066da1;
+    display: block;
+    position: relative;
+    width:100%; 
+}
+.alert-grey {
+    color: #333333;
+    font-size: 12px;
+    clear: both;
+    line-height: 18px;
+    background: #fefefe; /* Old browsers */
+    background: -moz-linear-gradient(top, #fefefe 0%, #e6e6e6 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(99%,#e6e6e6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fefefe 0%,#e6e6e6 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fefefe 0%,#e6e6e6 99%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #fefefe 0%,#e6e6e6 99%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, #fefefe 0%,#e6e6e6 99%); /* W3C */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #d6d6d6;
+    margin: 0px;
+    padding: 5px 10px 2px;
+    text-shadow:1px 1px #fff;
+    display: block;
+    position: relative;  
+    min-width:200px;
+}
+.alert-warning {
+        color: #555;
+    font-size: 14px;
+    clear: both;
+    line-height: 18px;
+    background: url("../images/admin/notice.png") no-repeat scroll 5px center #eeeeee;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #d6d6d6;
+    padding: 12px 15px 12px 50px;
+    text-shadow:1px 1px #fff;
+    display: block;
+    position: relative;  
+}
+
+/* Color Picker */
+.moor-box, .moor-overlayBox, .moor-slider, .moor-chooseColor {
+    border: 1px solid #DDDDDD;
+}
+
+/* Template Info */
+.templateinfo img {
+    float:left;
+    padding:0 20px;
+}
+.templateinfo p {
+    padding:0 20px;
+    max-width:600px;
+    text-align:left;
+    font-weight:normal;
+}
+
+.templateinfo h3 {
+    padding:10px 20px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size:22px;
+    color:#888888;
+    text-transform: uppercase;
+    background:#eeeeee;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.pull-left{float: none;}
+
+
+/* Manual Widths Input box widths */
+div.controls input#jform_params_top_1a_manual.module_width, div.controls input#jform_params_top_1b_manual.module_width, div.controls input#jform_params_top_1c_manual.module_width, div.controls input#jform_params_top_1d_manual.module_width, div.controls input#jform_params_top_1e_manual.module_width, div.controls input#jform_params_top_1f_manual.module_width, div.controls input#jform_params_top_2a_manual.module_width, div.controls input#jform_params_top_2b_manual.module_width, div.controls input#jform_params_top_2c_manual.module_width, div.controls input#jform_params_top_2d_manual.module_width, div.controls input#jform_params_top_2e_manual.module_width, div.controls input#jform_params_top_2f_manual.module_width{width:auto;}
+
+div.controls input#jform_params_contenttop_a_manual.module_width, div.controls input#jform_params_contenttop_b_manual.module_width, div.controls input#jform_params_contenttop_c_manual.module_width, div.controls input#jform_params_contentbottom_a_manual.module_width, div.controls input#jform_params_contentbottom_b_manual.module_width, div.controls input#jform_params_contentbottom_c_manual.module_width{width:auto;}
+
+div.controls input#jform_params_bottom_1a_manual.module_width, div.controls input#jform_params_bottom_1b_manual.module_width, div.controls input#jform_params_bottom_1c_manual.module_width, div.controls input#jform_params_bottom_1d_manual.module_width, div.controls input#jform_params_bottom_1e_manual.module_width, div.controls input#jform_params_bottom_1f_manual.module_width,   div.controls input#jform_params_bottom_2a_manual.module_width, div.controls input#jform_params_bottom_2b_manual.module_width, div.controls input#jform_params_bottom_2c_manual.module_width, div.controls input#jform_params_bottom_2d_manual.module_width, div.controls input#jform_params_bottom_2e_manual.module_width, div.controls input#jform_params_bottom_2f_manual.module_width{width:auto;}
+
+div.controls input#jform_params_base_1a_manual.module_width, div.controls input#jform_params_base_1b_manual.module_width, div.controls input#jform_params_base_1c_manual.module_width, div.controls input#jform_params_base_1d_manual.module_width, div.controls input#jform_params_base_1e_manual.module_width, div.controls input#jform_params_base_1f_manual.module_width,   div.controls input#jform_params_base_2a_manual.module_width, div.controls input#jform_params_base_2b_manual.module_width, div.controls input#jform_params_base_2c_manual.module_width, div.controls input#jform_params_base_2d_manual.module_width, div.controls input#jform_params_base_2e_manual.module_width, div.controls input#jform_params_base_2f_manual.module_width{width:auto;}
+
+.control-label{margin-right:10px;}
+
+div#templatestyleOptions.accordion div.control-label{min-width: 250px !important;}
+
+
+/* Joomla 3.2 params in one row */
+.row-fluid .span6 {
+    margin-left: 0;
+    width: 100%;
+}

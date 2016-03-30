@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" client="site" method="upgrade">
+	<name>joomlage0086-pixel</name>
+	<version>1.0</version>
+	<creationDate>December 2014</creationDate>
+	<author>Joomlage.com</author>
+	<authorEmail>info@joomlage.com</authorEmail>
+	<authorUrl>http://www.joomlage.com.com</authorUrl>
+	<copyright>Joomlage.com</copyright>      
+	<description><![CDATA[<link href="../templates/joomlage0086-pixel/css/admin.css" rel="stylesheet" type="text/css" media="all" />
+                  <!--
+                  #wrap1 {padding:0px 0px 4px 0px;}
+                  h1 {clear:both;font-family: Arial Narrow,sans-serif;font-size:18px;margin:0px 0px 12px 0px;padding:0px 0px 1px 10px;color:#C64934; a:}
+                  .wrap2 {background:#fff;border:1px solid #8F8F8F;padding:10px; color:#403d6a;}
+                  -->
+                  </style>
+<div class="templateinfo">
+<p>Joomlage.com Pixel Template.</p>
+
+      <p>Template Setup Guide <a href="http://www.joomlage.com/template-install-guides" target="_blank">Read Now</a><br />  
+
+      Support Forum <a href="http://www.joomlage.com/index.php/forum/index" target="_blank">Joomlage.com Forum</a><br />
+
+	  For Tutorials <a href="http://www.joomlage.com" target="_blank">Joomla Tutorials</a><br />
+
+	  Join The Club! <a href="http://www.joomlage.com/club-membership" target="_blank">Joomlage.com Template Club</a><br />
+
+	  Subscribe to our YouTube Tutorials Channel - <a href="http://www.youtube.com/user/joomlage" target="_blank">Joomla Video Tutorials</a><br />
+
+	  Follow us on Twitter <a href="http://twitter.com/joomlage" target="_blank">Joomlage Twitter</a><br /> 
+	  
+	  Coupon Offers <a href="http://www.facebook.com/pages/Joomlage-Joomla-Templates-made-simple-for-you/319493907740" target="_blank">Joomlage Facebook</a>
+	  <br /></p></div>
+	  
+  ]]></description>
+  
+  	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_joomlage0086-pixel.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_joomlage0086-pixel.sys.ini</language>
+	</languages>
+	
+
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<folder>css/</folder>
+		<folder>html/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+		<folder>language/</folder>
+		<folder>elements/</folder>
+		<folder>php/</folder>
+		<folder>fonts/</folder>
+	</files>
+
+	<positions>	
+	    <position>jumbotron</position>	
+		<position>showcase</position>
+		<position>breadcrumb</position>
+		<position>custom</position>
+		<position>top-1a</position>
+		<position>top-1b</position>
+		<position>top-1c</position>
+		<position>top-1d</position>
+		<position>top-1e</position>
+		<position>top-1f</position>
+	    <position>top-2a</position>
+		<position>top-2b</position>
+		<position>top-2c</position>
+		<position>top-2d</position>
+		<position>top-2e</position>
+		<position>top-2f</position>
+		<position>sidecol-a</position>
+		<position>sidecol-b</position>	
+		<position>contenttop-a</position>
+		<position>contenttop-b</position>
+		<position>contenttop-c</position>		
+		<position>contentbottom-a</position>	
+		<position>contentbottom-b</position>
+		<position>contentbottom-c</position>		
+		<position>bottom-1a</position>
+		<position>bottom-1b</position>
+		<position>bottom-1c</position>
+		<position>bottom-1d</position>
+		<position>bottom-1e</position>
+		<position>bottom-1f</position>
+		<position>bottom-2a</position>
+		<position>bottom-2b</position>
+		<position>bottom-2c</position>
+		<position>bottom-2d</position>
+		<position>bottom-2e</position>
+		<position>bottom-2f</position>	
+	    <position>base-1a</position>
+		<position>base-1b</position>
+		<position>base-1c</position>
+		<position>base-1d</position>
+		<position>base-1e</position>
+		<position>base-1f</position>
+		<position>base-2a</position>
+		<position>base-2b</position>
+		<position>base-2c</position>
+		<position>base-2d</position>
+		<position>base-2e</position>
+		<position>base-2f</position>	
+		<position>footer-1</position>
+		<position>footer-2</position>	
+	</positions>
+
+
+<config>
+<fields name="params" addfieldpath="/templates/joomlage0086-pixel/elements">
+	<fieldset name="H3STYLES">	
+        <field label="TEMPLATE_WIDTH_INFO" type="spacer" class="alert alert-grey" default="TEMPLATE_WIDTH_INFO"/>
+        <field label="TEMPLATE_WIDTH_NOTICE" type="spacer" class="alert alert-warning" default="TEMPLATE_WIDTH_NOTICE"/>
+		<field name="template_width" type="text" default="1200" size="4" label="Template Width" description="Enter template width in pixels. eg: 960 not 960px" />
+
+		<field label="BODY_STYLESETTINGS_INFO" type="spacer" class="alert alert-grey" default="STYLESETTINGS_INFO"/>
+        <field label="BODY_STYLING_NOTICE" type="spacer" class="alert alert-warning" default="BODY_STYLING_NOTICE"/>
+		<field name="body_color" type="color" default="#f4f5f7" label="Body Color" description="Select body color" />
+		<field name="body_pattern_overlay_toggle" type="radio" label="Load Body Pattern" description="Use Pattern Overlay on Body Color. Background image must be turned off." default="0" checked="checked" class="btn-group">
+		<option value="0">JNO</option>
+		<option value="1">JYES</option>
+		</field>
+
+		<field name="body_pattern_overlay" type="list" default="pattern1" label="Select Body Pattern" description="Choose body pattern">
+		<option value="pattern1">Pattern-1</option>
+		<option value="pattern2">Pattern-2</option>
+		<option value="pattern3">Pattern-3</option>
+		</field>
+
+		<field name="bg_image_toggle" type="radio" label="Load Background Image" description="Use Background Image" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="bg_image_file" type="media" default="" label="Select Background Image" description="select your background image" directory="/" filter="" exclude="" stripext="" />
+		<field label="FONTFACESETTINGS_INFO" type="spacer" class="alert alert-grey" default="FONTFACESETTINGS_INFO"/>
+		<field name="body_fontsize" type="list" default="13px" label="Body Font Size" description="Choose bodyfont size">
+		<option value="13px">Small</option>
+		<option value="14px">Medium</option>
+		<option value="15px">Large</option>
+		</field>
+		
+		<field name="body_fontstyle" type="GoogleFonts" default="Open Sans" label="Body Font" description="Select Body font">
+		<option value="font1">font1</option>
+		</field>
+		
+		<field name="articlehead_fontstyle" type="GoogleFonts" default="Lobster" label="Article Head font" description="Select article head font">
+		<option value="font1">font1</option>
+		</field>
+		
+		<field name="modulehead_fontstyle" type="GoogleFonts" default="Lobster" label="Module Head font" description="Select module head font">
+		<option value="font1">font1</option>
+		</field>
+		
+		<field name="hornav_fontstyle" type="GoogleFonts" default="Lato" label="Hornav Menu font" description="Select hornav menu font">
+		<option value="font1">font1</option>
+		</field>
+
+		<field label="BUTTON_INFO" type="spacer" class="alert alert-grey" default="BUTTON_INFO"/>
+		<field label="BUTTON_NOTICE" type="spacer" class="alert alert-warning" default="BUTTON_NOTICE"/>
+		<field name="button_background_color" type="color" default="#f5f5f5" label="Button Background Color" description="Select button background color" />
+		<field name="button_text_color" type="color" default="#2d2d2d" label="Button Text Color" description="Select button text color" />	
+
+		<field label="BUTTON_GROUP_INFO" type="spacer" class="alert alert-grey" default="BUTTON_GROUP_INFO"/>
+		<field label="BUTTON_GROUP_NOTICE" type="spacer" class="alert alert-warning" default="BUTTON_GROUP_NOTICE"/>
+		<field name="button_group_background_color" type="color" default="#f5f5f5" label="Email/Print Button Group Background Color" description="Select email/print button group background color" />
+		<field name="button_group_text_color" type="color" default="#2d2d2d" label="Email/Print Button Group Text Color" description="Select button text color for email print button group" />	
+
+		<field label="INPUTS_INFO" type="spacer" class="alert alert-grey" default="INPUTS_INFO"/>
+		<field label="INPUTS_NOTICE" type="spacer" class="alert alert-warning" default="INPUTS_NOTICE"/>
+		<field name="inputs_background_color" type="color" default="#f5f5f5" label="Inputs Background Color" description="Select inputs background color" />
+		<field name="inputs_text_color" type="color" default="#2d2d2d" label="Inputs Text Color" description="Select inputs text color" />	
+
+		<field label="TAGS_INFO" type="spacer" class="alert alert-grey" default="TAGS_INFO"/>
+		<field label="TAGS_NOTICE" type="spacer" class="alert alert-warning" default="TAGS_NOTICE"/>
+		<field name="tags_background_color" type="color" default="#2d2d2d" label="Tags Background Color" description="Select Tags background color" />
+		<field name="tags_text_color" type="color" default="#f5f5f5" label="Tags Text Color" description="Select Tags text color" />
+	</fieldset>
+
+<fieldset name="H3HORNAVMENU">	
+		<field label="HORNAVMENU_INFO" type="spacer" class="alert alert-grey" default="HORNAVMENU_INFO"/>
+		<field label="HORNAVMENU_NOTICE" type="spacer" class="alert alert-warning" default="HORNAVMENU_NOTICE"/>	
+		<field name="hornav_menu" type="menu" default="mainmenu" label="Select Hornav menu" description="This is the menu shown in the To navigation bar" />
+		<field name="hornav_border_color" type="color" default="#ffffff" label="Hornav Border Color" description="select your color" />
+		<field name="hornav_bg_color" type="color" default="#ffffff" label="Hornav Background Color" description="select your color" />
+		<field name="hornav_font_color" type="color" default="#9c9c9c" label="Hornav Link Color" description="select your color" />
+		<field name="hornav_hover_text_color" type="color" default="#858181" label="Hornav Link Hover Color" description="select your color" />
+		<field name="hornav_ddbackground_color" type="color" default="#ffffff" label="Dropdown Background Color" description="select your color" />	
+		<field name="hornav_ddtext_color" type="color" default="#9c9c9c" label="Dropdown Link Color" description="select your color" />
+		<field name="hornav_ddhover_text_color" type="color" default="#858181" label="Dropdown Link Hover Color" description="select your color" />
+</fieldset>
+
+<fieldset name="H3LOGO">
+		<field label="LOGO_IMAGE_INFO" type="spacer" class="alert alert-grey" default="LOGO_IMAGE_INFO"/>
+	    <field label="LOGO_IMAGE_NOTICE" type="spacer" class="alert alert-warning" default="LOGO_IMAGE_NOTICE"/>
+		<field name="logoimagefile" type="media" default="" label="Select Logo Image" description="select your logo image" directory="/" filter="" exclude="" stripext="" />
+		<field name="logoImage" type="radio" label="Logo Image On" description="turn on for logo image and off if using text based logo" default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field label="LOGO_ASTEXT_INFO" type="spacer" class="alert alert-grey" default="LOGO_ASTEXT_INFO"/>
+	    <field label="LOGO_ASTEXT_NOTICE" type="spacer" class="alert alert-warning" default="LOGO_ASTEXT_NOTICE"/>
+		<field name="logoText" type="text" default="Pixel" size="50" label="Logo text" description="Logo Text" />
+		<field name="logo_fontstyle" type="GoogleFonts" default="Lobster" label="Logo font" description="Select Logo font">
+		<option value="font1">font1</option>
+		</field>
+		<field name="logo_font_color" type="color" default="#000000" label="Logo Text Color" description="Logo Text Color" />
+		<field name="sloganText" type="text" default="Joomlage.com Template Design" size="50" label="Slogan text" description="Slogan Text" />
+		<field name="slogan_font_color" type="color" default="#000000" label="Slogan Text Color" description="Slogan Text Color" />
+
+		<field label="LOGO_POSITION_INFO" type="spacer" class="alert alert-grey" default="LOGO_POSITION_INFO"/>
+	    <field label="LOGO_POSITION_NOTICE" type="spacer" class="alert alert-warning" default="LOGO_POSITION_NOTICE"/>
+	    <field name="logo_x" type="text" default="50" size="3" label="Position from Left" description="X Position for Logo" />
+		<field name="logo_y" type="text" default="0" size="3" label="Position from Top" description="Y Position for Logo" />
+		<field name="logo_image_width" type="text" default="180" size="3" label="Logo image Width" description="Logo image width" />
+					
+</fieldset>
+
+<fieldset name="H3SOCIAL">
+	    <field label="SOCIAL_NOTICE" type="spacer" class="alert alert-warning" default="SOCIAL_NOTICE"/>	
+		<field name="nav_rssfeed_sw" type="radio" label="RSS Feed" description="RSS Feed" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_rssfeed" type="text" size="60" default="" label=" RSS Feed Url" description="RSS Feed URL" />
+
+		<field name="nav_twitter_sw" type="radio" label="Twitter" description="Twitter" default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_twitter" type="text" size="60" default="" label="Twitter Url" description="Twitter URL" />
+
+		<field name="nav_facebook_sw" type="radio" label="Facebook" description="Facebook" default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_facebook" type="text" size="60" default="" label="Facebook Url" description="Facebook URL" />
+
+		<field name="nav_google_sw" type="radio" label="Google" description="Google" default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_google" type="text" size="60" default="" label="Google Url" description="Google URL" />
+
+		<field name="nav_youtube_sw" type="radio" label="YouTube" description="YouTube" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_youtube" type="text" size="60" default="" label="YouTube Url" description="YouTube URL" />
+
+		<field name="nav_pinterest_sw" type="radio" label="Pinterest" description="pinterest" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_pinterest" type="text" size="60" default="" label="Pinterest Url" description="Pinterest URL" />
+
+		<field name="nav_dribbble_sw" type="radio" label="Dribbble" description="dribbble" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_dribbble" type="text" size="60" default="" label="Dribbble Url" description="dribbble URL" />
+
+		<field name="nav_flickr_sw" type="radio" label="Flickr" description="Flickr" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_flickr" type="text" size="60" default="" label="Flickr Url" description="Flickr URL" />
+
+		<field name="nav_skype_sw" type="radio" label="Skype" description="skype" default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_skype" type="text" size="60" default="" label="Skype Url" description="skype URL" />
+
+		<field name="nav_linkedin_sw" type="radio" label="LinkedIn" description="LinkedIn" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_linkedin" type="text" size="60" default="" label="LinkedIn Url" description="LinkedIn URL" />
+
+		<field name="nav_vimeo_sw" type="radio" label="Vimeo" description="vimeo" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_vimeo" type="text" size="60" default="" label="Vimeo Url" description="vimeo URL" />
+
+		<field name="nav_yahoo_sw" type="radio" label="Yahoo" description="yahoo" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_yahoo" type="text" size="60" default="" label="Yahoo Url" description="yahoo URL" />
+
+		<field name="nav_tumblr_sw" type="radio" label="Tumblr" description="tumblr" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_tumblr" type="text" size="60" default="" label="Tumblr Url" description="tumblr URL" />
+
+		<field name="nav_deviantart_sw" type="radio" label="Deviantart" description="deviantart" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_deviantart" type="text" size="60" default="" label="Deviantart Url" description="deviantart URL" />
+
+		<field name="nav_delicious_sw" type="radio" label="Delicious" description="delicious" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="nav_delicious" type="text" size="60" default="" label="Delicious Url" description="delicious URL" />
+</fieldset>
+
+
+<fieldset name="H3HEADERBLOCK">
+	<field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	<field label="HEADER_BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+	<field name="header_container_color" type="color" default="#ffffff" label="Container Color" description="Select container color" />
+    <field name="header_container_opacity" type="list" default="1" label="Container Opacity" description="Select Opacity">
+		<option value="1">No Opacity</option>
+		<option value="0">Transparent</option>
+		<option value="0.1">0.1</option>
+		<option value="0.2">0.2</option>
+		<option value="0.3">0.3</option>
+		<option value="0.4">0.4</option>
+		<option value="0.5">0.5</option>
+		<option value="0.6">0.6</option>
+		<option value="0.7">0.7</option>
+		<option value="0.8">0.8</option>
+		<option value="0.9">0.9</option>
+	</field>
+
+	<field name="header_container_border_color" type="color" default="#f0f0f0" label="Border Color" description="Select container border color" />
+
+    <field label="BLOCK_WRAPPER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_WRAPPER_COLOR_SETTINGS_INFO"/>
+	<field label="HEADER_BLOCK_WRAPPER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="HEADER_BLOCK_WRAPPER_COLOR_OPACITY_NOTICE"/>
+    <field name="header_wrapper_color" type="color" default="#ffffff" label="Wrapper Color" description="Select Wrapper color" />
+
+    <field name="header_wrapper_opacity" type="list" default="0" label="Wrapper Opacity" description="Select Opacity.">
+		<option value="1">No Opacity</option>
+		<option value="0">Transparent</option>
+		<option value="0.1">0.1</option>
+		<option value="0.2">0.2</option>
+		<option value="0.3">0.3</option>
+		<option value="0.4">0.4</option>
+		<option value="0.5">0.5</option>
+		<option value="0.6">0.6</option>
+		<option value="0.7">0.7</option>
+		<option value="0.8">0.8</option>
+		<option value="0.9">0.9</option>
+	</field>
+
+<field label="SOCIALICONSSTYLESETTINGS_INFO" type="spacer" class="alert alert-grey" default="SOCIALICONSSTYLESETTINGS_INFO"/>
+<field name="socialicons_style" type="list" default="Dark" label="Social Icons Style" description="Select Dark or light color to suit your header colors.">
+	<option value="Light">Light</option>
+	<option value="Dark">Dark</option>
+</field>
+<field name="socialicons_background_color" type="color" default="#fafafa" label="Background Color" description="Select Background color" />
+
+<field label="SEARCHSETTINGS_INFO" type="spacer" class="alert alert-grey" default="SEARCHSETTINGS_INFO"/>	
+	<field name="search_onoff" type="radio" label="Show Search" description="Select if you want search on/off" default="1" checked="checked" class="btn-group">
+    <option value="0">JNO</option>
+    <option value="1">JYES</option>
+    </field>
+    <field name="search_position_right" type="text" default="17" size="3" label="Search Box Position from Right" description="Enter a value to position. Example: 10 for 10px." />
+	<field name="search_position_top" type="text" default="85" size="3" label="Search Box Position from Top" description="Enter a value to position. Example: 80 for 80px." />
+	<field name="search_bgcolor" type="color" default="#fafafa" label="Search Box Color" description="Select a background Color for the Search Box" />
+	<field name="search_text_color" type="color" default="#cccccc" label="Search Box Text Color" description="Select a Text Color for the Search Box" />
+
+    <field label="HEADER_BLOCK_CUSTOM_MODULE_INFO" type="spacer" class="alert alert-grey" default="HEADER_BLOCK_CUSTOM_MODULE_INFO"/>
+	<field label="HEADER_BLOCK_CUSTOM_MODULE_NOTICE" type="spacer" class="alert alert-warning" default="HEADER_BLOCK_CUSTOM_MODULE_NOTICE"/>
+	<field name="header_custom_position_left" type="text" default="0" size="3" label="Position from Left" description="Enter a value to position. Example: 10 for 10px." />
+	<field name="header_custom_position_top" type="text" default="0" size="3" label="Position from Top" description="Enter a value to position. Example: 80 for 80px." />
+	<field name="header_custom_text_color" type="color" default="#ffffff" label="Text Color" description="Text Color" />
+	<field name="header_custom_link_color" type="color" default="#ffffff" label="Link Color" description="Select Color" />
+	<field name="header_custom_link_hover_color" type="color" default="#ffffff" label="Link Hover Color" description="Select Color" />
+</fieldset>
+
+
+<fieldset name="H3JUMBOTRONBLOCK">
+	    <field label="JUMBOTRON_BLOCK_CUSTOM_MODULE_INFO" type="spacer" class="alert alert-grey" default="JUMBOTRON_BLOCK_CUSTOM_MODULE_INFO"/>
+		<field label="JUMBOTRON_BLOCK_CUSTOM_MODULE_NOTICE" type="spacer" class="alert alert-warning" default="JUMBOTRON_BLOCK_CUSTOM_MODULE_NOTICE"/>
+		<field name="jumbotron_custom_text_color" type="color" default="#000000" label="Text Color" description="Text Color" />
+		<field name="jumbotron_custom_link_color" type="color" default="#363636" label="Link Color" description="Select Color" />
+		<field name="jumbotron_custom_link_hover_color" type="color" default="#000000" label="Link Hover Color" description="Select Color" />
+
+	    <field label="BLOCK_BACKGROUND_INFO" type="spacer" class="alert alert-grey" default="BLOCK_BACKGROUND_INFO"/>
+        <field label="BLOCK_BACKGROUND_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_BACKGROUND_NOTICE"/>
+	    <field name="jumbotron_image_toggle" type="radio" label="Load Image" description="Use Image" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="jumbotron_image_file" type="media" default="" label="Select Background Image" description="select background image" directory="/" filter="" exclude="" stripext="" />
+	     <field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	     <field label="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+	     <field name="jumbotron_container_color" type="color" default="#ffffff" label="Container Color" description="Select Container color" />
+	     <field name="jumbotron_container_opacity" type="list" default="0" label="Container Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	     </field>
+
+	    <field label="BLOCK_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_PADDING_INFO"/>
+	    <field label="BLOCK_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_PADDING_NOTICE"/>
+		    <field name="jumbotron_padding_top" type="list" default="300px" label="Container Padding Top" description="Select amount of padding to apply to top">
+				<option value="0px">No Padding</option>
+				<option value="10px">10px</option>
+				<option value="20px">20px</option>
+				<option value="30px">30px</option>
+				<option value="40px">40px</option>
+				<option value="50px">50px</option>
+				<option value="60px">60px</option>
+				<option value="70px">70px</option>
+				<option value="80px">80px</option>
+				<option value="90px">90px</option>
+				<option value="100px">100px</option>
+				<option value="110px">110px</option>
+				<option value="120px">120px</option>
+				<option value="130px">130px</option>
+				<option value="140px">140px</option>
+				<option value="150px">150px</option>
+				<option value="160px">160px</option>
+				<option value="170px">170px</option>
+				<option value="180px">180px</option>
+				<option value="190px">190px</option>
+				<option value="200px">200px</option>
+				<option value="300px">300px</option>
+				<option value="400px">400px</option>
+		    </field>
+
+		    <field name="jumbotron_padding_bottom" type="list" default="0px" label="Container Padding Bottom" description="Select amount of padding to apply to bottom">
+				<option value="0px">No Padding</option>
+				<option value="10px">10px</option>
+				<option value="20px">20px</option>
+				<option value="30px">30px</option>
+				<option value="40px">40px</option>
+				<option value="50px">50px</option>
+				<option value="60px">60px</option>
+				<option value="70px">70px</option>
+				<option value="80px">80px</option>
+				<option value="90px">90px</option>
+				<option value="100px">100px</option>
+				<option value="110px">110px</option>
+				<option value="120px">120px</option>
+				<option value="130px">130px</option>
+				<option value="140px">140px</option>
+				<option value="150px">150px</option>
+				<option value="160px">160px</option>
+				<option value="170px">170px</option>
+				<option value="180px">180px</option>
+				<option value="190px">190px</option>
+				<option value="200px">200px</option>
+				<option value="300px">300px</option>
+				<option value="400px">400px</option>
+		    </field>
+
+       <field label="BLOCK_WRAPPER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_WRAPPER_COLOR_SETTINGS_INFO"/>
+	   <field label="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE"/>
+         <field name="jumbotron_wrapper_color" type="color" default="#000000" label="Wrapper Color" description="Select Wrapper color" />
+         <field name="jumbotron_wrapper_opacity" type="list" default="0" label="Wrapper Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	    </field>	
+</fieldset>
+
+
+
+
+<fieldset name="H3SLIDESHOWBLOCK">
+    <field label="SLIDESHOW_LAYOUT_INFO" type="spacer" class="alert alert-grey" default="SLIDESHOW_LAYOUT_INFO"/>
+	<field label="SLIDESHOW_LAYOUT_NOTICE" type="spacer" class="alert alert-warning" default="SLIDESHOW_LAYOUT_NOTICE"/>
+	<field name="slideshow_full" type="list" default="Fullwidth" label="Slideshow Fullwidth or Boxed" description="Select if you want slideshow fullwidth or boxed">
+		<option value="Fullwidth">Fullwidth</option>
+		<option value="Boxed">Boxed</option>
+	</field>
+
+    <field label="SLIDESHOW_NAVIGATION_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="SLIDESHOW_NAVIGATION_COLOR_SETTINGS_INFO"/>
+	<field label="SLIDESHOW_NAVIGATION_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="SLIDESHOW_NAVIGATION_COLOR_OPACITY_NOTICE"/>
+    <field name="slideshow_navigation_bgcolor" type="color" default="#474747" label="Navigation Background Color" description="Select color for the slideshow navigation background.  The navigation is located right under the slideshow images" />
+    <field name="slideshow_navigation_opacity" type="list" default="0.1" label="Slideshow Navigation Opacity" description="Select Opacity">
+		<option value="1">No Opacity</option>
+		<option value="0">Transparent</option>
+		<option value="0.1">0.1</option>
+		<option value="0.2">0.2</option>
+		<option value="0.3">0.3</option>
+		<option value="0.4">0.4</option>
+		<option value="0.5">0.5</option>
+		<option value="0.6">0.6</option>
+		<option value="0.7">0.7</option>
+		<option value="0.8">0.8</option>
+		<option value="0.9">0.9</option>
+	</field>
+
+	<field label="BLOCK_BACKGROUND_INFO" type="spacer" class="alert alert-grey" default="BLOCK_BACKGROUND_INFO"/>
+	        <field label="BLOCK_BACKGROUND_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_BACKGROUND_NOTICE"/>
+		    <field name="slideshow_image_toggle" type="radio" label="Load Image" description="Use Image" default="0" checked="checked" class="btn-group">
+	<option value="0">JNO</option>
+	<option value="1">JYES</option>
+	</field>
+	<field name="slideshow_bg" type="media" default="" label="Select Background Image" description="select background image" directory="/" filter="" exclude="" stripext="" />	
+
+	<field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	<field label="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+    <field name="slideshow_container_color" type="color" default="#f4f5f7" label="Slideshow Container Color" description="Select slideshow container color" />
+    <field name="slideshow_container_opacity" type="list" default="1" label="Slideshow Container Opacity" description="Select Opacity">
+		<option value="1">No Opacity</option>
+		<option value="0">Transparent</option>
+		<option value="0.1">0.1</option>
+		<option value="0.2">0.2</option>
+		<option value="0.3">0.3</option>
+		<option value="0.4">0.4</option>
+		<option value="0.5">0.5</option>
+		<option value="0.6">0.6</option>
+		<option value="0.7">0.7</option>
+		<option value="0.8">0.8</option>
+		<option value="0.9">0.9</option>
+	</field>
+
+	<field label="BLOCK_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_PADDING_INFO"/>
+	<field label="BLOCK_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_PADDING_NOTICE"/>
+	<field name="slideshow_padding_top" type="list" default="0px" label="Container Padding Top" description="Select amount of padding to apply to top">
+		<option value="0px">No Padding</option>
+		<option value="10px">10px</option>
+		<option value="20px">20px</option>
+		<option value="30px">30px</option>
+		<option value="40px">40px</option>
+		<option value="50px">50px</option>
+		<option value="60px">60px</option>
+		<option value="70px">70px</option>
+		<option value="80px">80px</option>
+		<option value="90px">90px</option>
+		<option value="100px">100px</option>
+		<option value="110px">110px</option>
+		<option value="120px">120px</option>
+		<option value="130px">130px</option>
+		<option value="140px">140px</option>
+		<option value="150px">150px</option>
+		<option value="160px">160px</option>
+		<option value="170px">170px</option>
+		<option value="180px">180px</option>
+		<option value="190px">190px</option>
+		<option value="200px">200px</option>
+	</field>
+
+	<field name="slideshow_padding_bottom" type="list" default="0px" label="Container Padding Bottom" description="Select amount of padding to apply to bottom">
+		<option value="0px">No Padding</option>
+		<option value="10px">10px</option>
+		<option value="20px">20px</option>
+		<option value="30px">30px</option>
+		<option value="40px">40px</option>
+		<option value="50px">50px</option>
+		<option value="60px">60px</option>
+		<option value="70px">70px</option>
+		<option value="80px">80px</option>
+		<option value="90px">90px</option>
+		<option value="100px">100px</option>
+		<option value="110px">110px</option>
+		<option value="120px">120px</option>
+		<option value="130px">130px</option>
+		<option value="140px">140px</option>
+		<option value="150px">150px</option>
+		<option value="160px">160px</option>
+		<option value="170px">170px</option>
+		<option value="180px">180px</option>
+		<option value="190px">190px</option>
+		<option value="200px">200px</option>
+	</field>
+</fieldset>
+
+
+<fieldset name="H3TOPMODULEBLOCK">	
+	    <field label="BLOCK_BACKGROUND_INFO" type="spacer" class="alert alert-grey" default="BLOCK_BACKGROUND_INFO"/>
+        <field label="BLOCK_BACKGROUND_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_BACKGROUND_NOTICE"/>
+	    <field name="topmodules_image_toggle" type="radio" label="Load Image" description="Use Image" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="topmodules_image_file" type="media" default="" label="Select Background Image" description="select background image" directory="/" filter="" exclude="" stripext="" />
+	     <field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	     <field label="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+	     <field name="topmodules_container_color" type="color" default="#f7f7f7" label="Container Color" description="Select Container color" />
+	     <field name="topmodules_container_opacity" type="list" default="0.5" label="Container Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	     </field>
+
+	    <field label="BLOCK_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_PADDING_INFO"/>
+	    <field label="BLOCK_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_PADDING_NOTICE"/>
+		    <field name="topmodules_padding_top" type="list" default="40px" label="Container Padding Top" description="Select amount of padding to apply to top">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+		<field name="topmodules_padding_bottom" type="list" default="40px" label="Container Padding Bottom" description="Select amount of padding to apply to bottom">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+       <field label="BLOCK_WRAPPER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_WRAPPER_COLOR_SETTINGS_INFO"/>
+	   <field label="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE"/>
+         <field name="topmodules_wrapper_color" type="color" default="#ffffff" label="Wrapper Color" description="Select Wrapper color" />
+         <field name="topmodules_wrapper_opacity" type="list" default="0" label="Wrapper Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	    </field>
+
+         <field label="BLOCK_TEXT_AND_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_TEXT_AND_LINK_INFO"/>
+	     <field label="BLOCK_TEXT_AND_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_TEXT_AND_LINK_NOTICE"/>
+	     <field name="topmodules_text_color" type="color" default="#2d2d2d" label="Text Color" description="Select Modules Text color" />
+	     <field name="topmodules_link_color" type="color" default="#2d2d2d" label="Link Color" description="Select Modules Link color. Applied to all links except for menus. Menu link colors are set below." />
+	     <field name="topmodules_linkhover_color" type="color" default="#2d2d2d" label="Link Hover Color" description="Select Modules Link hover color. Applied to all links except for menus. Menu link colors are set below." />
+
+         <field label="BLOCK_MODULES_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_INFO"/>
+	     <field label="BLOCK_MODULES_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_NOTICE"/>
+	     <field name="topmodules_modulehead_color" type="color" default="#2d2d2d" label="Module Head Color" description="Select Modules Head background color" />
+	     <field name="topmodules_modulehead_color_onoff" type="radio" label="Module Head Color On" description="Toggle Module Head Color On/Off" default="0" checked="checked" class="btn-group">
+         <option value="0">JNO</option>
+         <option value="1">JYES</option>
+         </field>
+	     <field name="topmodules_moduleheadtext_color" type="color" default="#2d2d2d" label="Module Head Text Color" description="Select Modules Module Head Text color" />
+
+	    <field label="BLOCK_MODULES_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_PADDING_INFO"/>
+	    <field label="BLOCK_MODULES_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_PADDING_NOTICE"/>
+		    <field name="topmodules_head_padding_left_right" type="list" default="0px" label="Module Head Padding" description="Select amount of padding to apply to module heads">
+			<option value="0px">No Padding</option>
+			<option value="5px">5px</option>
+			<option value="6px">6px</option>
+			<option value="7px">7px</option>
+			<option value="8px">8px</option>
+			<option value="9px">9px</option>
+			<option value="10px">10px</option>
+	   </field>
+
+         <field label="BLOCK_MENUS_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MENUS_LINK_INFO"/>
+	     <field label="BLOCK_MENUS_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MENUS_LINK_NOTICE"/>
+	     <field name="topmodules_menulink_color" type="color" default="#ffffff" label="Menu Link Color" description="Select Modules Menu Link color" />	
+	     <field name="topmodules_menulinkhover_color" type="color" default="#ffffff" label="Menu Link Hover Color" description="Select Modules Menu Link Hover color" />						
+</fieldset>
+
+<fieldset name="H3MAINCONTENTBLOCK">	
+	    <field label="BLOCK_BACKGROUND_INFO" type="spacer" class="alert alert-grey" default="BLOCK_BACKGROUND_INFO"/>
+        <field label="BLOCK_BACKGROUND_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_BACKGROUND_NOTICE"/>
+	    <field name="maincontent_image_toggle" type="radio" label="Load Image" description="Use Image" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="maincontent_image_file" type="media" default="" label="Select Background Image" description="select background image" directory="/" filter="" exclude="" stripext="" />
+	     <field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	     <field label="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+	     <field name="maincontent_container_color" type="color" default="#ffffff" label="Container Color" description="Select Container color" />
+	     <field name="maincontent_container_opacity" type="list" default="1" label="Container Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	     </field>
+
+	    <field label="BLOCK_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_PADDING_INFO"/>
+	    <field label="BLOCK_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_PADDING_NOTICE"/>
+		    <field name="maincontent_padding_top" type="list" default="40px" label="Container Padding Top" description="Select amount of padding to apply to top">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+		    <field name="maincontent_padding_bottom" type="list" default="40px" label="Container Padding Bottom" description="Select amount of padding to apply to bottom">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+       <field label="BLOCK_WRAPPER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_WRAPPER_COLOR_SETTINGS_INFO"/>
+	   <field label="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE"/>
+         <field name="maincontent_wrapper_color" type="color" default="#ffffff" label="Wrapper Color" description="Select Wrapper color" />
+         <field name="maincontent_wrapper_opacity" type="list" default="0" label="Wrapper Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	    </field>
+
+         <field label="BLOCK_TEXT_AND_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_TEXT_AND_LINK_INFO"/>
+	     <field label="BLOCK_TEXT_AND_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_TEXT_AND_LINK_NOTICE"/>
+	     <field name="articletitle_font_color" type="color" default="#2d2d2d" label="Article Title Color" description="Select the color for Article Titles" />
+	     <field name="maincontent_text_color" type="color" default="#2d2d2d" label="Text Color" description="Select Modules Text color" />
+	     <field name="maincontent_link_color" type="color" default="#2d2d2d" label="Link Color" description="Select Modules Link color. Applied to all links except for menus. Menu link colors are set below." />
+	     <field name="maincontent_linkhover_color" type="color" default="#2d2d2d" label="Link Hover Color" description="Select Modules Link hover color. Applied to all links except for menus. Menu link colors are set below." />
+
+         <field label="BLOCK_MODULES_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_INFO"/>
+	     <field label="BLOCK_MODULES_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_NOTICE"/>
+	     <field name="maincontent_modulehead_color" type="color" default="#ffffff" label="Module Head Color" description="Select Modules Head background color" />
+	     <field name="maincontent_modulehead_color_onoff" type="radio" label="Module Head Color On" description="Toggle Module Head Color On/Off" default="1" checked="checked" class="btn-group">
+         <option value="0">JNO</option>
+         <option value="1">JYES</option>
+         </field>
+	     <field name="maincontent_moduleheadtext_color" type="color" default="#2d2d2d" label="Module Head Text Color" description="Select Modules Module Head Text color" />
+
+	    <field label="BLOCK_MODULES_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_PADDING_INFO"/>
+	    <field label="BLOCK_MODULES_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_PADDING_NOTICE"/>
+		    <field name="mainmodules_head_padding_left_right" type="list" default="0px" label="Module Head Padding" description="Select amount of padding to apply to module heads">
+			<option value="0px">No Padding</option>
+			<option value="5px">5px</option>
+			<option value="6px">6px</option>
+			<option value="7px">7px</option>
+			<option value="8px">8px</option>
+			<option value="9px">9px</option>
+			<option value="10px">10px</option>
+	   </field>
+
+         <field label="BLOCK_MENUS_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MENUS_LINK_INFO"/>
+	     <field label="BLOCK_MENUS_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MENUS_LINK_NOTICE"/>
+	     <field name="maincontent_menulink_color" type="color" default="#2d2d2d" label="Menu Link Color" description="Select Modules Menu Link color" />	
+	     <field name="maincontent_menulinkhover_color" type="color" default="#2d2d2d" label="Menu Link Hover Color" description="Select Modules Menu Link Hover color" />						
+</fieldset>
+
+<fieldset name="H3BOTTOMMODULEBLOCK">	
+	    <field label="BLOCK_BACKGROUND_INFO" type="spacer" class="alert alert-grey" default="BLOCK_BACKGROUND_INFO"/>
+        <field label="BLOCK_BACKGROUND_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_BACKGROUND_NOTICE"/>
+	    <field name="bottommodules_image_toggle" type="radio" label="Load Image" description="Use Image" default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="bottommodules_image_file" type="media" default="" label="Select Background Image" description="select background image" directory="/" filter="" exclude="" stripext="" />
+	     <field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	     <field label="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+	     <field name="bottommodules_container_color" type="color" default="#000000" label="Container Color" description="Select Container color" />
+	     <field name="bottommodules_container_opacity" type="list" default="0.1" label="Container Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	     </field>
+
+	    <field label="BLOCK_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_PADDING_INFO"/>
+	    <field label="BLOCK_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_PADDING_NOTICE"/>
+		    <field name="bottommodules_padding_top" type="list" default="80px" label="Container Padding Top" description="Select amount of padding to apply to top">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+		    <field name="bottommodules_padding_bottom" type="list" default="80px" label="Container Padding Bottom" description="Select amount of padding to apply to bottom">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+       <field label="BLOCK_WRAPPER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_WRAPPER_COLOR_SETTINGS_INFO"/>
+	   <field label="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE"/>
+         <field name="bottommodules_wrapper_color" type="color" default="#ffffff" label="Wrapper Color" description="Select Wrapper color" />
+         <field name="bottommodules_wrapper_opacity" type="list" default="0" label="Wrapper Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	    </field>
+
+         <field label="BLOCK_TEXT_AND_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_TEXT_AND_LINK_INFO"/>
+	     <field label="BLOCK_TEXT_AND_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_TEXT_AND_LINK_NOTICE"/>
+	     <field name="bottommodules_text_color" type="color" default="#ffffff" label="Text Color" description="Select Modules Text color" />
+	     <field name="bottommodules_link_color" type="color" default="#ffffff" label="Link Color" description="Select Modules Link color. Applied to all links except for menus. Menu link colors are set below." />
+	     <field name="bottommodules_linkhover_color" type="color" default="#ffffff" label="Link Hover Color" description="Select Modules Link hover color. Applied to all links except for menus. Menu link colors are set below." />
+
+         <field label="BLOCK_MODULES_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_INFO"/>
+	     <field label="BLOCK_MODULES_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_NOTICE"/>
+	     <field name="bottommodules_modulehead_color" type="color" default="#ffffff" label="Module Head Color" description="Select Modules Head background color" />
+	     <field name="bottommodules_modulehead_color_onoff" type="radio" label="Module Head Color On" description="Toggle Module Head Color On/Off" default="0" checked="checked" class="btn-group">
+         <option value="0">JNO</option>
+         <option value="1">JYES</option>
+         </field>
+	     <field name="bottommodules_moduleheadtext_color" type="color" default="#ffffff" label="Module Head Text Color" description="Select Modules Module Head Text color" />
+
+	    <field label="BLOCK_MODULES_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_PADDING_INFO"/>
+	    <field label="BLOCK_MODULES_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_PADDING_NOTICE"/>
+		    <field name="bottommodules_head_padding_left_right" type="list" default="0px" label="Module Head Padding" description="Select amount of padding to apply to module heads">
+			<option value="0px">No Padding</option>
+			<option value="5px">5px</option>
+			<option value="6px">6px</option>
+			<option value="7px">7px</option>
+			<option value="8px">8px</option>
+			<option value="9px">9px</option>
+			<option value="10px">10px</option>
+	   </field>
+
+         <field label="BLOCK_MENUS_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MENUS_LINK_INFO"/>
+	     <field label="BLOCK_MENUS_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MENUS_LINK_NOTICE"/>
+	     <field name="bottommodules_menulink_color" type="color" default="#ffffff" label="Menu Link Color" description="Select Modules Menu Link color" />	
+	     <field name="bottommodules_menulinkhover_color" type="color" default="#ffffff" label="Menu Link Hover Color" description="Select Modules Menu Link Hover color" />						
+</fieldset>
+
+<fieldset name="H3BASEMODULEBLOCK">	
+	    <field label="BLOCK_BACKGROUND_INFO" type="spacer" class="alert alert-grey" default="BLOCK_BACKGROUND_INFO"/>
+        <field label="BLOCK_BACKGROUND_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_BACKGROUND_NOTICE"/>
+	    <field name="basemodules_image_toggle" type="radio" label="Load Image" description="Use Image" default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="basemodules_image_file" type="media" default="" label="Select Background Image" description="select background image" directory="/" filter="" exclude="" stripext="" />
+	     <field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	     <field label="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+	     <field name="basemodules_container_color" type="color" default="#f7f7f7" label="Container Color" description="Select Container color" />
+	     <field name="basemodules_container_opacity" type="list" default="0.5" label="Container Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	     </field>
+
+	    <field label="BLOCK_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_PADDING_INFO"/>
+	    <field label="BLOCK_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_PADDING_NOTICE"/>
+		    <field name="basemodules_padding_top" type="list" default="0px" label="Container Padding Top" description="Select amount of padding to apply to top">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+		    <field name="basemodules_padding_bottom" type="list" default="0px" label="Container Padding Bottom" description="Select amount of padding to apply to bottom">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+       <field label="BLOCK_WRAPPER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_WRAPPER_COLOR_SETTINGS_INFO"/>
+	   <field label="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE"/>
+         <field name="basemodules_wrapper_color" type="color" default="#0a0a0b" label="Wrapper Color" description="Select Wrapper color" />
+         <field name="basemodules_wrapper_opacity" type="list" default="0" label="Wrapper Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	    </field>
+
+         <field label="BLOCK_TEXT_AND_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_TEXT_AND_LINK_INFO"/>
+	     <field label="BLOCK_TEXT_AND_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_TEXT_AND_LINK_NOTICE"/>
+	     <field name="basemodules_text_color" type="color" default="#2d2d2d" label="Text Color" description="Select Modules Text color" />
+	     <field name="basemodules_link_color" type="color" default="#2d2d2d" label="Link Color" description="Select Modules Link color. Applied to all links except for menus. Menu link colors are set below." />
+	     <field name="basemodules_linkhover_color" type="color" default="#2d2d2d" label="Link Hover Color" description="Select Modules Link hover color. Applied to all links except for menus. Menu link colors are set below." />
+
+         <field label="BLOCK_MODULES_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_INFO"/>
+	     <field label="BLOCK_MODULES_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_NOTICE"/>
+	     <field name="basemodules_modulehead_color" type="color" default="#ffffff" label="Module Head Color" description="Select Modules Head background color" />
+	     <field name="basemodules_modulehead_color_onoff" type="radio" label="Module Head Color On" description="Toggle Module Head Color On/Off" default="0" checked="checked" class="btn-group">
+         <option value="0">JNO</option>
+         <option value="1">JYES</option>
+         </field>
+	     <field name="basemodules_moduleheadtext_color" type="color" default="#2d2d2d" label="Module Head Text Color" description="Select Modules Module Head Text color" />
+
+	    <field label="BLOCK_MODULES_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MODULES_PADDING_INFO"/>
+	    <field label="BLOCK_MODULES_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MODULES_PADDING_NOTICE"/>
+		<field name="basemodules_head_padding_left_right" type="list" default="0px" label="Module Head Padding" description="Select amount of padding to apply to module heads">
+			<option value="0px">No Padding</option>
+			<option value="5px">5px</option>
+			<option value="6px">6px</option>
+			<option value="7px">7px</option>
+			<option value="8px">8px</option>
+			<option value="9px">9px</option>
+			<option value="10px">10px</option>
+	   </field>
+
+         <field label="BLOCK_MENUS_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_MENUS_LINK_INFO"/>
+	     <field label="BLOCK_MENUS_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_MENUS_LINK_NOTICE"/>
+	     <field name="basemodules_menulink_color" type="color" default="#ffffff" label="Menu Link Color" description="Select Modules Menu Link color" />	
+	     <field name="basemodules_menulinkhover_color" type="color" default="#ffffff" label="Menu Link Hover Color" description="Select Modules Menu Link Hover color" />						
+</fieldset>
+
+
+	<fieldset name="H3COPYRIGHTFOOTER">
+	     <field label="BLOCK_CONTAINER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_CONTAINER_COLOR_SETTINGS_INFO"/>
+	     <field label="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_CONTAINER_COLOR_OPACITY_NOTICE"/>
+	     <field name="copyrightfooter_container_color" type="color" default="#1d1d1d" label="Container Color" description="Select Container color" />
+	     <field name="copyrightfooter_container_opacity" type="list" default="1" label="Container Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	     </field>
+
+	    <field label="BLOCK_PADDING_INFO" type="spacer" class="alert alert-grey" default="BLOCK_PADDING_INFO"/>
+	    <field label="BLOCK_PADDING_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_PADDING_NOTICE"/>
+		    <field name="copyrightfooter_padding_top" type="list" default="0px" label="Container Padding Top" description="Select amount of padding to apply to top">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+	   		<field name="copyrightfooter_padding_bottom" type="list" default="0px" label="Container Padding Bottom" description="Select amount of padding to apply to bottom">
+			<option value="0px">No Padding</option>
+			<option value="10px">10px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+			<option value="50px">50px</option>
+			<option value="60px">60px</option>
+			<option value="70px">70px</option>
+			<option value="80px">80px</option>
+	   </field>
+
+       <field label="BLOCK_WRAPPER_COLOR_SETTINGS_INFO" type="spacer" class="alert alert-grey" default="BLOCK_WRAPPER_COLOR_SETTINGS_INFO"/>
+	   <field label="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_WRAPPER_COLOR_OPACITY_NOTICE"/>
+         <field name="copyrightfooter_wrapper_color" type="color" default="#ffffff" label="Wrapper Color" description="Select Wrapper color" />
+         <field name="copyrightfooter_wrapper_opacity" type="list" default="0" label="Wrapper Opacity" description="Select Opacity.">
+			<option value="1">No Opacity</option>
+			<option value="0">Transparent</option>
+			<option value="0.1">0.1</option>
+			<option value="0.2">0.2</option>
+			<option value="0.3">0.3</option>
+			<option value="0.4">0.4</option>
+			<option value="0.5">0.5</option>
+			<option value="0.6">0.6</option>
+			<option value="0.7">0.7</option>
+			<option value="0.8">0.8</option>
+			<option value="0.9">0.9</option>
+	    </field>
+
+         <field label="BLOCK_TEXT_AND_LINK_INFO" type="spacer" class="alert alert-grey" default="BLOCK_TEXT_AND_LINK_INFO"/>
+	     <field label="BLOCK_TEXT_AND_LINK_NOTICE" type="spacer" class="alert alert-warning" default="BLOCK_TEXT_AND_LINK_NOTICE"/>
+	     <field name="copyrightfooter_text_color" type="color" default="#ffffff" label="Text Color" description="Select Modules Text color" />
+	     <field name="copyrightfooter_link_color" type="color" default="#ffffff" label="Link Color" description="Select Modules Link color. Applied to all links except for menus. Menu link colors are set below." />
+	     <field name="copyrightfooter_linkhover_color" type="color" default="#ffffff" label="Link Hover Color" description="Select Modules Link hover color. Applied to all links except for menus. Menu link colors are set below." />
+
+		<field label="COPYRIGHT_INFO" type="spacer" class="alert alert-grey" default="COPYRIGHT_INFO"/>
+		<field name="copyright" type="text" size="80" filter="raw" default="(c) 2012 Your Copyright Info" label="Copyright" description="Copyright Text" />
+
+		<field label="FOOTERMENU_INFO" type="spacer" class="alert alert-grey" default="FOOTERMENU_INFO"/>
+				<field label="FOOTERMENU_NOTICE" type="spacer" class="alert alert-warning" default="FOOTERMENU_NOTICE"/>	
+				<field name="footermenu_onoff" type="radio" label="Show Footer Menu" description="Select if you want menu on/off" default="1" checked="checked" class="btn-group">
+		<option value="0">JNO</option>
+		<option value="1">JYES</option>
+		</field>
+		<field name="footer_menu" type="menu" default="mainmenu" label="Select Footer menu" description="Select Footer Menu" />	
+
+	     <field label="FOOTER_MENUS_LINK_INFO" type="spacer" class="alert alert-grey" default="FOOTER_MENUS_LINK_INFO"/>
+	     <field label="FOOTER_MENUS_LINK_NOTICE" type="spacer" class="alert alert-warning" default="FOOTER_MENUS_LINK_NOTICE"/>
+	     <field name="footermenu_menulink_color" type="color" default="#ffffff" label="Menu Link Color" description="Select Modules Menu Link color" />	
+	     <field name="footermenu_menulinkhover_color" type="color" default="#ffffff" label="Menu Link Hover Color" description="Select Modules Menu Link Hover color" />
+	</fieldset>	
+	
+	<fieldset name="H3LAYOUT">
+		<field label="LAYOUT_NOTICE" type="spacer" class="alert alert-warning" default="LAYOUT_NOTICE"/>
+		<field name="column_layout" type="list" default="SCOLA-COM-SCOLB" label="Side Column Layout" description="Side Column Layout">
+			<option value="SCOLA-SCOLB-COM">Side Column A + Side Column B + Component</option>
+			<option value="SCOLA-COM-SCOLB">Side Column A + Component + Side Column B</option>
+			<option value="COM-SCOLA-SCOLB">Component + Side Column A + Side Column B</option>
+		</field>				
+		<field name="sidecola_width" type="text" default="25" label="Side Column A Width" description="Enter the width of the Side Column A in pixels." />
+		<field name="sidecolb_width" type="text" default="25" label="Side Column B Width" description="Enter the width of the Side Column B pixels." />				
+	</fieldset>
+	
+	<fieldset name="H3MODULEWIDTHS">	
+		<field label="MODULES_NOTICE" type="spacer" class="alert alert-warning" default="MODULES_NOTICE"/>	
+		<field label="TOP1MODULES_INFO" type="spacer" class="alert alert-grey" default="TOP1MODULES_INFO"/>		
+		<field name="top1_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="top_1a_manual" type="moduleslabel" default="16.6" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="top_1b_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_1c_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_1d_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_1e_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_1f_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		
+		<field label="TOP2MODULES_INFO" type="spacer" class="alert alert-grey" default="TOP2MODULES_INFO"/>
+		<field name="top2_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="top_2a_manual" type="moduleslabel" default="16.6" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="top_2b_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_2c_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_2d_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_2e_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="top_2f_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		
+		<field label="CONTENTTOPMODULES_INFO" type="spacer" class="alert alert-grey" default="CONTENTTOPMODULES_INFO"/>
+		<field name="contenttop_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="contenttop_a_manual" type="moduleslabel" default="33" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="contenttop_b_manual" type="modules" default="33" size="2" label="" description="Enter value for module width" />
+		<field name="contenttop_c_manual" type="modules" default="33" size="2" label="" description="Enter value for module width" />
+		
+		<field label="CONTENTBOTTOMMODULES_INFO" type="spacer" class="alert alert-grey" default="CONTENTBOTTOMMODULES_INFO"/>
+		<field name="contentbottom_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="contentbottom_a_manual" type="moduleslabel" default="33" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="contentbottom_b_manual" type="modules" default="33" size="2" label="" description="Enter value for module width" />
+		<field name="contentbottom_c_manual" type="modules" default="33" size="2" label="" description="Enter value for module width" />
+		
+		<field label="BOTTOM1MODULES_INFO" type="spacer" class="alert alert-grey" default="BOTTOM1MODULES_INFO"/>
+		<field name="bottom1_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="bottom_1a_manual" type="moduleslabel" default="16.6" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="bottom_1b_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_1c_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_1d_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_1e_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_1f_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		
+		<field label="BOTTOM2MODULES_INFO" type="spacer" class="alert alert-grey" default="BOTTOM2MODULES_INFO"/>
+		<field name="bottom2_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="bottom_2a_manual" type="moduleslabel" default="16.6" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="bottom_2b_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_2c_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_2d_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_2e_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="bottom_2f_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		
+		<field label="BASE1MODULES_INFO" type="spacer" class="alert alert-grey" default="BASE1MODULES_INFO"/>
+		<field name="base1_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="base_1a_manual" type="moduleslabel" default="16.6" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="base_1b_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_1c_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_1d_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_1e_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_1f_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		
+		<field label="BASE2MODULES_INFO" type="spacer" class="alert alert-grey" default="BASE2MODULES_INFO"/>
+		<field name="base2_auto" type="radio" label="Enable Manual Widths" description="Select Yes for manual widths" default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="base_2a_manual" type="moduleslabel" default="16.6" size="2" label="Manual Widths (%)" description="Enter value for module width" />
+		<field name="base_2b_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_2c_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_2d_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_2e_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />
+		<field name="base_2f_manual" type="modules" default="16.6" size="2" label="" description="Enter value for module width" />	
+	</fieldset>
+	
+		<fieldset name="H3CUSTOMCSS">		
+		<field label="CUSTOMCSS_NOTICE" type="spacer" class="alert alert-warning" default="CUSTOMCSS_NOTICE"/>
+		<field name="custom_css" type="textarea" filter="raw" default="" label="Custom css" description="Add your custom css here." rows="10" cols="50" />
+	</fieldset>
+	
+	<fieldset name="H3CUSTOMCODE">		
+		<field label="CUSTOMCODEHEAD_NOTICE" type="spacer" class="alert alert-warning" default="CUSTOMCODEHEAD_NOTICE"/>
+		<field name="head_custom_code" type="textarea" filter="raw" default="" label="Head Custom Code" description="Code will be placed between the HEAD tags in your index.php" rows="10" cols="50" />
+
+		<field label="CUSTOMCODEBODY_NOTICE" type="spacer" class="alert alert-warning" default="CUSTOMCODEBODY_NOTICE"/>
+		<field name="body_custom_code" type="textarea" filter="raw" default="" label="Body Custom Code" description="Code will be placed between the BODY tags in your index.php" rows="10" cols="50" />
+	</fieldset>
+	
+	<fieldset name="H3RESPONSIVECONTROLS">
+		<field label="RESPONSIVE_INFO" type="spacer" class="alert alert-grey" default="RESPONSIVE_INFO"/>
+		<field label="RESPONSIVE_NOTICE" type="spacer" class="alert alert-warning" default="RESPONSIVE_NOTICE"/>
+		<field name="responsive_switch" type="radio" label="Responsive layout" description="Turn responsive layout on or off." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field label="RESPONSIVE_LOGO_INFO" type="spacer" class="alert alert-grey" default="RESPONSIVE_LOGO_INFO"/>
+		<field label="RESPONSIVE_LOGO_NOTICE" type="spacer" class="alert alert-warning" default="RESPONSIVE_LOGO_NOTICE"/>
+		<field name="logo_mobile_switch" type="radio" label="Mobile Logo Image" description="Show/Hide Mobile Logo Image." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="logo_mobile" type="media" default="" label="Select Mobile Logo Image" description="select your mobile logo image" directory="/" filter="" exclude="" stripext="" />
+
+<field label="RESPONSIVE_SOCIAL_SEARCH_INFO" type="spacer" class="alert alert-grey" default="RESPONSIVE_SOCIAL_SEARCH_INFO"/>
+		<field label="RESPONSIVE_SOCIAL_SEARCH_NOTICE" type="spacer" class="alert alert-warning" default="RESPONSIVE_SOCIAL_SEARCH_NOTICE"/>
+		<field name="social_switch" type="radio" label="Toggle Social On" description="Show/Hide Social Icons." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="search_switch" type="radio" label="Toggle Search On" description="Show/Hide Search Icons." default="0" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+
+		<field label="RESPONSIVE_MODULES_INFO" type="spacer" class="alert alert-grey" default="RESPONSIVE_MODULES_INFO"/>
+		<field label="RESPONSIVE_MODULES_NOTICE" type="spacer" class="alert alert-warning" default="RESPONSIVE_MODULES_NOTICE"/>
+
+		<field name="slideshow_modules_switch" type="radio" label="Slideshow Module" description="Show/Hide module." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="top_modules_switch" type="radio" label="Top Modules" description="Show/Hide modules." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="sidecol_a_switch" type="radio" label="Side Col A Modules" description="Show/Hide Side Col A." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="sidecol_b_switch" type="radio" label="Side Col B Modules" description="Show/Hide Side Col B." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="bottom_modules_switch" type="radio" label="Bottom Modules" description="Show/Hide modules." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="base_modules_switch" type="radio" label="Base Modules" description="Show/Hide modules." default="1" checked="checked" class="btn-group">
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>		
+</fieldset>
+	</fields></config>
+</extension>

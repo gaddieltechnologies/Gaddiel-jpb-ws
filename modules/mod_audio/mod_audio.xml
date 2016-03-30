@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+    <name>HTML5 Simple mp3 Player V2</name>
+	<author>Qubesys Technologies Pvt.Ltd</author>
+	<creationDate>Feb 2012</creationDate>
+	<copyright>Copyright (C) 2011 - 2012 Qubesys Technologies Pvt.Ltd. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@qubesys.com</authorEmail>
+	<authorUrl>www.qubesys.com</authorUrl>
+	<version>8.7</version>
+	<description>Thank you for installing our module !</description>
+    <files>
+        <filename>mod_audio.xml</filename>
+        <filename module="mod_audio">mod_audio.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+		
+    </files>
+	
+       <config>
+		<fields name="params">
+		<fieldset name="basic">
+		 <field type="spacer" name="myspacer" label="&lt;div id=&quot;activity-feed&quot; style=&quot;color:#fff;padding:0px;width:400px;margin:5;&quot;&gt;
+		
+			&lt;a href=&quot;http://www.joomclub.org/joomla-extensions/&quot; target=&quot;_blank&quot; &gt;
+			&lt;img src=&quot;http://www.qubesys.com/store.png &quot; /&gt;
+			&lt;/a&gt;&lt;a href=&quot;https://qubesys.zendesk.com/&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;http://www.qubesys.com/support.png &quot; /&gt;
+			&lt;/a&gt;
+			&lt;/div&gt;" />
+		<field name="load1" type="list" default="1" label="Load jQuery Library" description="If you have more than one module using jQuery lib and use multi instace of this module, then deactivate this. Or in case, you are not able to get the slideshow, then try disabling it. If you have no idea,what you are doing,then keep it ENABLED.">
+			<option value="1">ENABLED</option>
+			<option value="0">DISABLED</option>
+	     </field>
+		 <field name="jsfiles" type="list" default="" label="JS Files" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	     </field>
+		 <field name="cssfiles" type="list" default="" label="CSS Files" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	     </field>
+		  <field name="title" type="text" size="60" default="" label="Enter Title:" description="Enter Title For Module" />
+		 <field name="u_id" type="text" size="30" default="1" label="Unique ID:" description="Unique ID" />
+		  <field name="autoplay" type="list" default="" label="Autoplay" description="Autoplay (On/Off).">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	     </field>
+		 <field name="loop" type="list" default="" label="Loop" description="Loop">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	     </field>
+		 <field name="shuffle" type="list" default="" label="Shuffle" description="Shuffle">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	     </field>
+		 <field name="continuouslyPlayOnAllPages" type="list" default="" label="Continuously Play OnAllPages" description="Continuously Play OnAllPages">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	     </field>
+		 <field name="show_playlist" type="list" default="" label="Show Playlist" description="Show Playlist (On/Off).">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	     </field>
+		 
+        <field name="style_with_playlist" type="list" default="" label="Choose Style (With Playlist)" description="Choose Style (With Playlist).">
+			<option value="1">Style 1</option>
+			<option value="2">Style 2</option>
+			<option value="3">Style 3</option>
+			<option value="4">Style 4</option>
+	     </field>
+         <field name="style_without_playlist" type="list" default="" label="Choose Style (Without Playlist)" description="Choose Style (Without Playlist).">
+			<option value="1">Style 1</option>
+			<option value="2">Style 2</option>
+			<option value="3">Style 3</option>
+			<option value="4">Style 4</option>
+			<option value="5">Style 5</option>
+			<option value="6">Style 6</option>
+			<option value="7">Style 7</option>
+			<option value="8">Style 8</option>
+			<option value="9">Style 9</option>
+			<option value="10">Style 10</option>
+			<option value="11">Style 11</option>
+			<option value="12">Style 12</option>
+			<option value="13">Style 13</option>
+			<option value="14">Style 14</option>
+	     </field>	   	 
+          <field name="audio_title" type="textarea" rows="10" cols="30" default="Title 1" label="Title For Audio File:" description="Title For Audio File (Separated By Enter)" />
+          <field name="audio_author" type="textarea" rows="10" cols="30" default="Author 1" label="Author For Audio File:" description="Author For Audio File (Separated By Enter)" />
+          	  
+          <field name="audio_mp3" type="textarea" rows="10" cols="30" default="" label="MP3 Audio File Path:" description="MP3 Audio File Path For Audio File (Separated By Enter)" />		  
+          <field name="audio_ogg" type="textarea" rows="10" cols="30" default="" label="OGG Audio File Path:" description="OGG Audio File Path For Audio File (Separated By Enter)" />
+          <field name="height_player" type="text" size="100" default="200" label="Height Of Audio Player" description="Height Of Audio Player" />
+		  
+	      </fieldset>
+      </fields>
+	</config>
+</extension>
